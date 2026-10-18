@@ -21,21 +21,21 @@
 (function (global) {
   'use strict';
 
-  /* ---------------- 主题 ---------------- */
+  /* ---------------- 主题（浅色商务风，严格照抄 macro-dashboard 取色规范） ---------------- */
   const THEME = {
-    bg: '#0a1628',
-    panel: '#0d1f3c',
-    primary: '#1e90ff',
-    danger: '#ff4d4f',
-    warning: '#faad14',
-    text: '#ffffff',
-    subText: '#a0b4d0',
-    gridLine: 'rgba(30,144,255,0.12)',
-    axisLine: 'rgba(30,144,255,0.35)',
-    borderGlow: 'rgba(30,144,255,0.25)'
+    bg: 'transparent',     // 图表背景透明，透出卡片白底
+    panel: '#ffffff',      // 卡片底色
+    primary: '#3B82F6',    // 蓝色高亮
+    danger: '#E57373',     // 柔和红
+    warning: '#F59E0B',    // 琥珀
+    text: '#1F2937',       // 主文字
+    subText: '#64748B',    // 次文字
+    gridLine: '#e6eaf0',   // 网格线
+    axisLine: '#e6eaf0',   // 轴线
+    borderGlow: '#e6eaf0'  // 卡片边框
   };
 
-  const SERIES_COLORS = ['#1e90ff', '#00d4ff', '#3a7bd5', '#8f7bff', '#00c8a0', '#ffb84d'];
+  const SERIES_COLORS = ['#3B82F6', '#0EA5A4', '#F59E0B', '#8B5CF6', '#EC4899', '#F97316'];
 
   const FX_NOTE = 'USD 口径 · EUR/GBP 按固定汇率折算';
 
@@ -163,10 +163,10 @@
 
   function baseTooltip() {
     return {
-      backgroundColor: 'rgba(10,22,40,0.95)',
-      borderColor: 'rgba(30,144,255,0.5)',
+      backgroundColor: 'rgba(255,255,255,0.96)',
+      borderColor: '#e6eaf0',
       textStyle: { color: THEME.text, fontSize: 12 },
-      extraCssText: 'box-shadow:0 0 12px rgba(30,144,255,0.25);'
+      extraCssText: 'box-shadow:0 4px 16px rgba(15,23,42,0.10);'
     };
   }
 
@@ -190,7 +190,7 @@
   function buildMiniCard(category, price, count) {
     const card = el('div', null,
       'flex:0 0 auto;min-width:128px;max-width:200px;background:' + THEME.panel +
-      ';border:1px solid rgba(30,144,255,0.2);border-radius:6px;padding:8px 10px;');
+      ';border:1px solid #e6eaf0;border-radius:6px;padding:8px 10px;');
     const name = el('div', category, 'color:' + THEME.subText + ';font-size:11px;margin-bottom:4px;' +
       'white-space:nowrap;overflow:hidden;text-overflow:ellipsis;');
     name.title = category;
@@ -215,7 +215,7 @@
     wrap.appendChild(el('div',
       '数据更新：' + (kpi.updated_at || '-') + '　平台：' + (platInfo || (kpi.platforms || []).join(', ') || '-'),
       'color:' + THEME.subText + ';font-size:12px;'));
-    wrap.appendChild(el('div', '口径：' + fxText, 'color:' + THEME.warning + ';font-size:12px;'));
+    wrap.appendChild(el('div', '口径：' + fxText, 'color:' + THEME.subText + ';font-size:12px;'));
 
     const primary = el('div', null, 'display:flex;gap:16px;flex-wrap:wrap;');
     primary.appendChild(buildCard({ label: '商品总数', value: String(kpi.total_products || 0), unit: '件', color: THEME.text }));
@@ -272,7 +272,7 @@
     const data = [
       { name: '涨价', value: up, itemStyle: { color: THEME.danger } },
       { name: '降价', value: down, itemStyle: { color: THEME.primary } },
-      { name: '持平', value: same, itemStyle: { color: '#3d5a80' } }
+      { name: '持平', value: same, itemStyle: { color: '#94A3B8' } }
     ].filter(function (d) { return d.value > 0; });
 
     const centerText = pct == null ? '暂无' : (pct > 0 ? '+' : '') + pct.toFixed(2) + '%';
@@ -310,10 +310,10 @@
         type: 'pie', radius: ['50%', '72%'], center: ['36%', '54%'],
         itemStyle: { borderColor: THEME.bg, borderWidth: 2 },
         label: { show: true, position: 'outside', formatter: '{b}\n{d}%', color: THEME.subText, fontSize: 11 },
-        labelLine: { lineStyle: { color: 'rgba(30,144,255,0.35)' } },
+        labelLine: { lineStyle: { color: '#cbd5e1' } },
         emphasis: {
           label: { fontSize: 12, color: THEME.text },
-          itemStyle: { shadowBlur: 12, shadowColor: 'rgba(30,144,255,0.5)' }
+          itemStyle: { shadowBlur: 12, shadowColor: 'rgba(59,130,246,0.30)' }
         },
         data: data
       }]
@@ -341,7 +341,7 @@
 
     const bandKeys = ['<50', '50-100', '>100'];
     const bandNames = ['<$50', '$50-100', '>$100'];
-    const bandColors = { '<50': '#00d4ff', '50-100': '#1e90ff', '>100': '#8f7bff' };
+    const bandColors = { '<50': '#0EA5A4', '50-100': '#3B82F6', '>100': '#8B5CF6' };
 
     const totals = categories.map(function (k) {
       const parts = k.split('|');
@@ -443,7 +443,7 @@
       data = top.map(function (c, i) {
         return { name: c.category, value: c.count, itemStyle: { color: SERIES_COLORS[i % SERIES_COLORS.length] } };
       });
-      if (rest > 0) data.push({ name: '其他', value: rest, itemStyle: { color: '#3d5a80' } });
+      if (rest > 0) data.push({ name: '其他', value: rest, itemStyle: { color: '#94A3B8' } });
       subtext = singleCategory ? '本批为单品类快照（running shoes）' : '';
     }
 
@@ -483,10 +483,10 @@
           show: true, position: 'outside', formatter: '{b}\n{d}%',
           color: THEME.subText, fontSize: 11
         },
-        labelLine: { lineStyle: { color: 'rgba(30,144,255,0.35)' } },
+        labelLine: { lineStyle: { color: '#cbd5e1' } },
         emphasis: {
           label: { fontSize: 12, color: THEME.text },
-          itemStyle: { shadowBlur: 12, shadowColor: 'rgba(30,144,255,0.5)' }
+          itemStyle: { shadowBlur: 12, shadowColor: 'rgba(59,130,246,0.30)' }
         },
         data: data
       }]
@@ -547,7 +547,7 @@
           borderRadius: 7,
           color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [
             { offset: 0, color: base },
-            { offset: 1, color: positive ? 'rgba(255,77,79,0.10)' : 'rgba(30,144,255,0.10)' }
+            { offset: 1, color: positive ? 'rgba(229,115,115,0.15)' : 'rgba(59,130,246,0.15)' }
           ])
         }
       });
@@ -639,7 +639,7 @@
 
     const header = el('div', null,
       'display:grid;grid-template-columns:2.8fr 1.3fr 0.9fr 0.9fr 0.9fr 0.8fr;gap:6px;padding:6px 8px;' +
-      'border-bottom:1px solid rgba(30,144,255,0.3);flex:0 0 auto;');
+      'border-bottom:1px solid #e6eaf0;flex:0 0 auto;');
     ['商品标题', 'ASIN', '日期', '原价', '现价', '变化'].forEach(function (h) {
       header.appendChild(el('span', h, 'color:' + THEME.text + ';font-size:11px;font-weight:bold;'));
     });
@@ -654,7 +654,7 @@
       const label = name || shortTitle(a.title) || shortAsin(a.asin);
       const li = el('li', null,
         'display:grid;grid-template-columns:2.8fr 1.3fr 0.9fr 0.9fr 0.9fr 0.8fr;gap:6px;padding:0 8px;' +
-        'height:26px;align-items:center;border-bottom:1px solid rgba(30,144,255,0.08);');
+        'height:26px;align-items:center;border-bottom:1px solid #f0f3f8;');
       const tCell = el('span', label,
         'color:' + THEME.text + ';font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;');
       tCell.title = a.title || a.asin;

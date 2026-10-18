@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>数字贸易数据监控系统</title>
+  <style>
+    /* ============ 浅色商务风（严格照抄 B 同学 macro-dashboard 取色规范） ============ */
+    :root {
+      --bg-0:    #f5f7fa;   /* 页面底色 */
+      --bg-1:    #ffffff;   /* 卡片底色 */
+      --bg-2:    #f0f3f8;   /* 浅灰背景（摘要横条 / 表头） */
+      --border:  #e6eaf0;   /* 边框 */
+      --text-0:  #1F2937;   /* 主文字 */
+      --text-1:  #64748B;   /* 次文字 */
+      --text-2:  #94A3B8;   /* 元数据小字 */
+      --primary: #3B82F6;   /* 蓝色高亮 */
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      background: var(--bg-0); color: var(--text-0);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      font-size: 14px;
+    }
+    body { display: flex; flex-direction: column; overflow: hidden; }
+
+    /* ==== 顶部导航（浅色） ==== */
+    .nav {
+      flex: 0 0 auto; height: 56px;
+      background: var(--bg-1);
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .nav button {
+      padding: 8px 24px; font-size: 14px; font-weight: 600;
+      color: var(--text-1); background: var(--bg-2);
+      border: 1px solid var(--border); border-radius: 8px; cursor: pointer; transition: all .2s;
+    }
+    .nav button:hover { color: var(--primary); border-color: var(--primary); }
+    .nav button.active { color: #fff; background: var(--primary); border-color: var(--primary); }
+
+    /* ==== 全局摘要横条（浅灰背景，深蓝主色） ==== */
+    .summary-bar {
+      flex: 0 0 auto;
+      display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px;
+      margin: 12px 16px 0; padding: 12px 18px;
+      background: var(--bg-2); border: 1px solid var(--border); border-radius: 10px;
+      font-size: 13px; color: var(--text-1);
+    }
+    .summary-bar .seg { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+    .summary-bar .seg b { color: var(--primary); font-weight: 700; }
+    .summary-bar .divider { width: 1px; height: 16px; background: var(--border); }
+    .summary-bar .muted { color: var(--text-2); }
+
+    /* ==== 宏微观联动数据矩阵表 ==== */
+    .matrix {
+      flex: 0 0 auto;
+      margin: 12px 16px 0;
+      background: var(--bg-1); border: 1px solid var(--border); border-radius: 10px;
+      overflow: hidden;
+    }
+    .matrix table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .matrix th, .matrix td { padding: 8px 10px; text-align: left; border: 1px solid var(--border); vertical-align: top; }
+    .matrix thead th { background: var(--bg-2); color: var(--text-0); font-weight: 600; }
+    .matrix th.dim { width: 120px; }
+    .matrix td.dim { color: var(--text-0); font-weight: 600; background: #fafbfd; }
+    .matrix td b { color: var(--primary); font-weight: 700; }
+    .matrix td .muted, .matrix .muted { color: var(--text-2); }
+
+    /* ==== 双大屏切换 iframe 容器 ==== */
+    .frame-wrap { flex: 1 1 auto; position: relative; min-height: 0; margin: 12px 16px 16px; }
+    iframe {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      border: 1px solid var(--border); border-radius: 10px;
+      background: var(--bg-0); display: none;
+    }
+    iframe.active { display: block; }
+  </style>
+</head>
+<body>
+  <!-- ① 顶部导航（双标签页切换） -->
+  <div class="nav">
+    <button id="btn-micro" class="active" onclick="switchTab('micro')">微观电商分析 (Amazon vs Shopify)</button>
+    <button id="btn-macro" onclick="switchTab('macro')">宏观数字贸易</button>
+  </div>
+
+  <!-- ② 全局摘要横条（动态读取，不写死） -->
+  <div id="summary-bar" class="summary-bar">
+    <span class="muted">正在加载全局摘要…</span>
+  </div>
+
+  <!-- ③ 宏微观联动数据矩阵表 -->
+  <div class="matrix">
+    <table id="matrix-table">
+      <thead>
+        <tr>
+          <th class="dim">分析维度</th>
+          <th>宏观数字贸易背景</th>
+          <th>微观电商动态</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="dim">规模与体量</td>
+          <td id="m-scale" class="muted">数据加载中…</td>
+          <td id="m-scale-micro" class="muted">数据加载中…</td>
+        </tr>
+        <tr>
+          <td class="dim">平台与结构</td>
+          <td id="m-structure" class="muted">数据加载中…</td>
+          <td id="m-structure-micro" class="muted">数据加载中…</td>
+        </tr>
+        <tr>
+          <td class="dim">风险与异常</td>
+          <td id="m-risk" class="muted">数据加载中…</td>
+          <td id="m-risk-micro" class="muted">数据加载中…</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ④ 双大屏切换 iframe -->
+  <div class="frame-wrap">
+    <iframe id="frame-micro" src="micro-dashboard.html" class="active"></iframe>
+    <iframe id="frame-macro" src="macro-dashboard.html"></iframe>
+  </div>
+
+  <script>
+    function switchTab(tab) {
+      document.getElementById('frame-micro').classList.remove('active');
+      document.getElementById('frame-macro').classList.remove('active');
+      document.getElementById('btn-micro').classList.remove('active');
+      document.getElementById('btn-macro').classList.remove('active');
+      document.getElementById('frame-' + tab).classList.add('active');
+      document.getElementById('btn-' + tab).classList.add('active');
+    }
+
+    /* 跨境电商进出口总额兜底常量：macro_kpi.json 中暂无 cross_border_ecommerce_trend 字段，
+       此处沿用 macro-dashboard 的 macro-charts.js CROSS_BORDER_CONST_DATA（海关总署 2018-2025）。 */
+    var CROSS_BORDER_CONST = {
+      trend: [
+        { year: 2018, total: 10557 },
+        { year: 2019, total: 12903 },
+        { year: 2020, total: 16220 },
+        { year: 2021, total: 19237 },
+        { year: 2022, total: 20599 },
+        { year: 2023, total: 23744 },
+        { year: 2024, total: 27072 },
+        { year: 2025, total: 28374 }
+      ]
+    };
+
+    // 从趋势数组取「年份最大且 total 有效」的末年总额
+    function pickLatestTotal(rows) {
+      if (!Array.isArray(rows) || !rows.length) return null;
+      var best = null;
+      rows.forEach(function (r) {
+        if (!r || r.year == null || r.total == null) return;
+        var t = Number(r.total);
+        if (!isFinite(t)) return;
+        if (!best || Number(r.year) > Number(best.year)) best = { year: r.year, total: t };
+      });
+      return best;
+    }
+
+    // 亿元 → 万亿元
+    function fmtTrillion(yi) { return (Number(yi) / 10000).toFixed(2); }
+
+    // 数字交付服务贸易额：取 china_digital_service_trend 末年 value（百万美元 → 亿美元）
+    function lastTrendValue(arr) {
+      if (!Array.isArray(arr)) return null;
+      var last = null;
+      arr.forEach(function (p) { if (p && p.value != null && !isNaN(Number(p.value))) last = Number(p.value); });
+      return last;
+    }
+
+    // ICT 服务出口占比：取 international_comparison 中 China/CHN 行
+    function chinaIctShare(ic) {
+      if (!Array.isArray(ic)) return null;
+      for (var i = 0; i < ic.length; i++) {
+        var r = ic[i];
+        if (r && (r.country_code === 'CHN' || r.country === 'China') && r.ict_export_share != null) {
+          return Number(r.ict_export_share);
+        }
+      }
+      return null;
+    }
+
+    // Shopify 均价 vs Amazon 均价（取 price_trend_7d 各平台最新一期）
+    function platformCompare(micro) {
+      var arr = Array.isArray(micro.price_trend_7d) ? micro.price_trend_7d : [];
+      var latest = {};
+      arr.forEach(function (p) {
+        if (!p || !p.date || !p.platform) return;
+        if (!latest[p.platform] || p.date > latest[p.platform].date) latest[p.platform] = p;
+      });
+      var a = latest.amazon && latest.amazon.avg_price;
+      var s = latest.shopify && latest.shopify.avg_price;
+      if (a == null || s == null) return '';
+      var aTxt = '$' + Number(a).toFixed(2);
+      var sTxt = '$' + Number(s).toFixed(2);
+      if (s > a) return 'Shopify 均价 <b>' + sTxt + '</b> 高于 Amazon <b>' + aTxt + '</b>';
+      if (a > s) return 'Amazon 均价 <b>' + aTxt + '</b> 高于 Shopify <b>' + sTxt + '</b>';
+      return 'Shopify 与 Amazon 均价接近';
+    }
+
+    function loadSummary() {
+      Promise.all([
+        fetch('data/processed/macro_kpi.json?v=' + Date.now()).then(function (r) { return r.json(); }),
+        fetch('data/processed/micro_kpi.json?v=' + Date.now()).then(function (r) { return r.json(); })
+      ]).then(function (results) {
+        renderSummary(results[0] || {}, results[1] || {});
+        renderMatrix(results[0] || {}, results[1] || {});
+      }).catch(function () {
+        var bar = document.getElementById('summary-bar');
+        if (bar) {
+          bar.innerHTML = '<span class="muted">⚠️ 数据加载失败，请确认已通过 <code>python -m http.server</code> 启动本地服务。</span>';
+        }
+        var tds = document.querySelectorAll('#matrix-table tbody td');
+        for (var i = 0; i < tds.length; i++) { tds[i].textContent = '数据加载中…'; }
+      });
+    }
+
+    function renderSummary(macro, micro) {
+      var bar = document.getElementById('summary-bar');
+      if (!bar) return;
+
+      var cb = pickLatestTotal(macro.cross_border_ecommerce_trend) || pickLatestTotal(CROSS_BORDER_CONST.trend);
+      var cbText = cb ? fmtTrillion(cb.total) + ' 万亿元' : '—';
+      var total = micro.total_products != null ? micro.total_products : '—';
+      var cmp = platformCompare(micro);
+
+      bar.innerHTML = '';
+      var seg1 = document.createElement('span');
+      seg1.className = 'seg';
+      seg1.innerHTML = '📊 宏观背景：跨境电商进出口总额 <b>' + cbText + '</b>';
+
+      var seg2 = document.createElement('span');
+      seg2.className = 'seg';
+      seg2.innerHTML = '🛒 微观动态：追踪 <b>' + total + '</b> 件商品' + (cmp ? '，' + cmp : '');
+
+      var d = document.createElement('span');
+      d.className = 'divider';
+
+      bar.appendChild(seg1);
+      bar.appendChild(d);
+      bar.appendChild(seg2);
+    }
+
+    function renderMatrix(macro, micro) {
+      function set(id, html) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.classList.remove('muted');
+        el.innerHTML = html;
+      }
+
+      // 宏观指标
+      var cb = pickLatestTotal(macro.cross_border_ecommerce_trend) || pickLatestTotal(CROSS_BORDER_CONST.trend);
+      var cbHtml = cb ? '跨境电商进出口总额 <b>' + fmtTrillion(cb.total) + ' 万亿元</b>' : '—';
+
+      var dse = lastTrendValue(macro.china_digital_service_trend);
+      var dseHtml = dse != null ? '数字交付服务贸易额 <b>' + (dse / 100).toFixed(1) + ' 亿美元</b>' : '—';
+
+      var ict = chinaIctShare(macro.international_comparison);
+      var ictHtml = ict != null ? 'ICT 服务出口占比 <b>' + ict.toFixed(1) + '%</b>' : '—';
+
+      // 微观指标
+      var totalHtml = '商品总数 <b>' + (micro.total_products != null ? micro.total_products : '—') + ' 件</b>';
+      var cmpHtml = platformCompare(micro) || '平台均价数据不足';
+      var anomHtml = '异常商品预警 <b>' + (micro.anomalies_count != null ? micro.anomalies_count : '—') + ' 条</b>';
+
+      set('m-scale', cbHtml);
+      set('m-scale-micro', totalHtml);
+      set('m-structure', dseHtml);
+      set('m-structure-micro', cmpHtml);
+      set('m-risk', ictHtml);
+      set('m-risk-micro', anomHtml);
+    }
+
+    loadSummary();
+  </script>
+</body>
+</html>
