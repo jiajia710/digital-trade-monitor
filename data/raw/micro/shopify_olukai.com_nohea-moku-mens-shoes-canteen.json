@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olukai.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://olukai.com/products/nohea-moku-mens-shoes-canteen",
+    "store": "olukai.com",
+    "title": "Nohea Moku - Canteen / Canteen",
+    "brand": null,
+    "category": null,
+    "condition": null,
+    "price": 120,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "10283-VCVC-7",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://olukai.com/cdn/shop/files/10283_VCVC_001_M_NOHEAMOKU_CanteenCanteen.png?v=1782721910&width=800",
+    "image_count": 3,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:10.889463Z"
+  },
+  "get_price_history": {
+    "url": "https://olukai.com/products/nohea-moku-mens-shoes-canteen",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 120,
+    "lowest_price": 120,
+    "highest_price": 120,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:10Z",
+        "price": 120,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

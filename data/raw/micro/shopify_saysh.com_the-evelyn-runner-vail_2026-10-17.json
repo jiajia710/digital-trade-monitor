@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "saysh.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://saysh.com/products/the-evelyn-runner-vail",
+    "store": "saysh.com",
+    "title": "The Evelyn Runner - Vail",
+    "brand": "Saysh",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 185.0,
+    "original_price": 185.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "10007 001 006",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://saysh.com/products/the-evelyn-runner-vail",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 185.0,
+    "lowest_price": 185.0,
+    "highest_price": 185.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 185.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

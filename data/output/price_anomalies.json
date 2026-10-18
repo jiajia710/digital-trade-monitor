@@ -1,0 +1,52 @@
+[
+  {
+    "asin": "ricdu02f6814nbfd7811",
+    "title": "Rick Owens DRKSHDW Elephant Low Boot - Black / Milk / Milk",
+    "date": "2026-10-17",
+    "old_price": 1130.0,
+    "new_price": 1130.0,
+    "change_pct": 1186.3,
+    "threshold": 126.51,
+    "alert": true
+  },
+  {
+    "asin": "beige-cyprus-boat-shoe-snake-leather",
+    "title": "Cyprus Boat Shoe Beige Snake Leather",
+    "date": "2026-10-17",
+    "old_price": 277.0,
+    "new_price": 277.0,
+    "change_pct": 215.3,
+    "threshold": 126.51,
+    "alert": true
+  },
+  {
+    "asin": "zebra-stella-sneaker-hair-leather",
+    "title": "Stella Sneaker Zebra Hair Leather",
+    "date": "2026-10-17",
+    "old_price": 263.0,
+    "new_price": 263.0,
+    "change_pct": 199.4,
+    "threshold": 126.51,
+    "alert": true
+  },
+  {
+    "asin": "beige-gaia-sandal-snake-leather",
+    "title": "Gaia Sandal Beige Snake Leather",
+    "date": "2026-10-17",
+    "old_price": 231.0,
+    "new_price": 231.0,
+    "change_pct": 162.9,
+    "threshold": 126.51,
+    "alert": true
+  },
+  {
+    "asin": "air-jordan-5-retro-halloween-black-picante-red-1",
+    "title": "Air Jordan 5 Retro 'Halloween' - Black/Picante Red",
+    "date": "2026-10-17",
+    "old_price": 215.0,
+    "new_price": 215.0,
+    "change_pct": 144.7,
+    "threshold": 126.51,
+    "alert": true
+  }
+]

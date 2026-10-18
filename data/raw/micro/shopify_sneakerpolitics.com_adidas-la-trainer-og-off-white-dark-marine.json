@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/adidas-la-trainer-og-off-white-dark-marine",
+    "store": "sneakerpolitics.com",
+    "title": "Adidas LA Trainer OG - Off White/Dark Marine",
+    "brand": "Adidas",
+    "category": "Sneakers",
+    "condition": "new",
+    "price": 82.5,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "JR3610|8",
+    "gtin": "197620623686",
+    "mpn": "JR3610|8",
+    "image": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Adidas-LATrainerOG-JR3610-WB-1.jpg?v=1759175403&width=1200",
+    "image_count": 6,
+    "rating": null,
+    "variant_count": 11,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:41.707428Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/adidas-la-trainer-og-off-white-dark-marine",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 82.5,
+    "lowest_price": 82.5,
+    "highest_price": 82.5,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:41Z",
+        "price": 82.5,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

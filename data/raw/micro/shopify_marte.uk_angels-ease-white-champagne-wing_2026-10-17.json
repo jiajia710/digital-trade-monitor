@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "marte.uk",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://marte.uk/products/angels-ease-white-champagne-wing",
+    "store": "marte.uk",
+    "title": "Angel's Ease - White / Champagne Wing",
+    "brand": "Marte uk",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 129.0,
+    "original_price": 119.0,
+    "discount_percent": null,
+    "currency": "GBP",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 8,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://marte.uk/products/angels-ease-white-champagne-wing",
+    "days": 14,
+    "currency": "GBP",
+    "current_price": 129.0,
+    "lowest_price": 129.0,
+    "highest_price": 129.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 129.0,
+        "currency": "GBP",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

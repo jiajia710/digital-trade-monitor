@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olivercabell.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://olivercabell.com/products/premium-kit-1",
+    "store": "olivercabell.com",
+    "title": "Premium Kit",
+    "brand": "Oliver Cabell",
+    "category": null,
+    "condition": null,
+    "price": 44.99,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://olivercabell.com/products/files/PremiumKit_a704b7fa-dc22-4ddf-b36f-56e7189371f5.jpg",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:37.691981Z"
+  },
+  "get_price_history": {
+    "url": "https://olivercabell.com/products/premium-kit-1",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 44.99,
+    "lowest_price": 44.99,
+    "highest_price": 44.99,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:37Z",
+        "price": 44.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

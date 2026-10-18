@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "xeroshoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://xeroshoes.com/products/dillon-canvas-slip-on-men-clearance",
+    "store": "xeroshoes.com",
+    "title": "Dillon Canvas Slip-On - Men (Final Sale)",
+    "brand": "Xero Shoes",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 67.99,
+    "original_price": 84.99,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "CAPM-BLCK-M06.5",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 48,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://xeroshoes.com/products/dillon-canvas-slip-on-men-clearance",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 67.99,
+    "lowest_price": 67.99,
+    "highest_price": 67.99,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 67.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

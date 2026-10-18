@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "thousandfell.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://www.thousandfell.com/products/mens-slip-on-sneaker-white",
+    "store": "thousandfell.com",
+    "title": "Men's Slip On | White",
+    "brand": "Thousand Fell",
+    "category": null,
+    "condition": "new",
+    "price": 109.0,
+    "original_price": 145.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "1002M1001USM080",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 9,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://www.thousandfell.com/products/mens-slip-on-sneaker-white",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 109.0,
+    "lowest_price": 109.0,
+    "highest_price": 109.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 109.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

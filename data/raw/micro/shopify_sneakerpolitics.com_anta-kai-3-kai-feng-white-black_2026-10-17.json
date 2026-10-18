@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/anta-kai-3-kai-feng-white-black",
+    "store": "sneakerpolitics.com",
+    "title": "Anta Kai 3 'Kai Feng' - White/Black",
+    "brand": "Anta",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 150.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "812631102A-1|7",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/anta-kai-3-kai-feng-white-black",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 150.0,
+    "lowest_price": 150.0,
+    "highest_price": 150.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 150.0,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

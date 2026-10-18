@@ -1,0 +1,311 @@
+{
+  "platform": "amazon",
+  "marketplace": "us",
+  "category": "yoga pants",
+  "collected_at": "2026-09-30",
+  "source": "octoparse (amazon MCP get_bestsellers unavailable: API doesn't exists)",
+  "total_collected": 30,
+  "note": "ranked by overall Best Sellers Rank (#N in Clothing, Shoes & Jewelry); YEOREO variant B0FKRVZQC8 is a duplicate of B0FG28K94B",
+  "products": [
+    {
+      "rank": 1,
+      "asin": "B0C7ZC7B8Z",
+      "title": "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
+      "price": "$36.99",
+      "rating": "4.3",
+      "review_count": 6825,
+      "bsr": 13,
+      "bsr_category": "#1 in Women's Yoga Pants"
+    },
+    {
+      "rank": 2,
+      "asin": "B0CKZ4ZWYG",
+      "title": "SINOPHANT High Waisted Leggings Women with Pockets",
+      "price": "$7.99",
+      "rating": "4.3",
+      "review_count": 14602,
+      "bsr": 18,
+      "bsr_category": "#1 in Women's Leggings, #2 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 3,
+      "asin": "B09P1F6G8B",
+      "title": "CRZ YOGA Butterluxe Leggings 25\"",
+      "price": "$32.00",
+      "rating": "4.6",
+      "review_count": 18673,
+      "bsr": 26,
+      "bsr_category": "#1 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 4,
+      "asin": "B0FG28K94B",
+      "title": "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
+      "price": "$29.99",
+      "rating": "4.1",
+      "review_count": 4104,
+      "bsr": 32,
+      "bsr_category": "#1 in Women's Activewear Leggings, #3 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 5,
+      "asin": "B0FKRVZQC8",
+      "title": "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants (variant)",
+      "price": "$29.99",
+      "rating": "4.1",
+      "review_count": 4104,
+      "bsr": 32,
+      "bsr_category": "#1 in Women's Activewear Leggings, #3 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 6,
+      "asin": "B0FL1YDD88",
+      "title": "PRETISKY Womens Flared Yoga Pants with Pockets, High Waisted Flare Leggings Bell Bottom Bootcut Yoga Dress Pants",
+      "price": "$9.98",
+      "rating": "4.4",
+      "review_count": 2005,
+      "bsr": 82,
+      "bsr_category": "#3 in Women's Athletic Pants"
+    },
+    {
+      "rank": 7,
+      "asin": "B07KZTRP4G",
+      "title": "THE GYM PEOPLE Women's Thick High Waist Yoga Pants Workout Leggings",
+      "price": "$24.99",
+      "rating": "4.4",
+      "review_count": 70381,
+      "bsr": 115,
+      "bsr_category": "#4 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 8,
+      "asin": "B0D49BN9GS",
+      "title": "CRZ YOGA Secretsculpt Leggings 25\"",
+      "price": "$32.00",
+      "rating": "4.5",
+      "review_count": 3001,
+      "bsr": 228,
+      "bsr_category": "#5 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 9,
+      "asin": "B0FZ8V1Y99",
+      "title": "CRZ YOGA Softretch Wide Leg Pants 28\"/30\"/32\"",
+      "price": "$34.00",
+      "rating": "4.2",
+      "review_count": 562,
+      "bsr": 277,
+      "bsr_category": "#2 in Women's Yoga Pants"
+    },
+    {
+      "rank": 10,
+      "asin": "B0D49BF1NK",
+      "title": "CRZ YOGA Butterlift Leggings 25\"",
+      "price": "$32.00",
+      "rating": "4.6",
+      "review_count": 3754,
+      "bsr": 390,
+      "bsr_category": "#6 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 11,
+      "asin": "B0CSYMQK6X",
+      "title": "FOHOFO Yoga Pants Women, Flare Leggings for Women with Pockets Crossover High Waisted Bootcut Yoga Pants",
+      "price": "$12.99",
+      "rating": "4.4",
+      "review_count": 3407,
+      "bsr": 399,
+      "bsr_category": "#8 in Women's Athletic Pants"
+    },
+    {
+      "rank": 12,
+      "asin": "B0DBHF6V6F",
+      "title": "IUGA Compression Leggings with Pockets for Women Tummy Control Yoga Pants",
+      "price": "$26.99",
+      "rating": "4.4",
+      "review_count": 13804,
+      "bsr": 446,
+      "bsr_category": "#4 in Women's Activewear Leggings"
+    },
+    {
+      "rank": 13,
+      "asin": "B0BB7SP83Z",
+      "title": "Sunzel Flare Leggings for Women, Crossover Yoga Pants with Tummy Control",
+      "price": "$23.99",
+      "rating": "4.3",
+      "review_count": 22988,
+      "bsr": 541,
+      "bsr_category": "#3 in Women's Yoga Pants"
+    },
+    {
+      "rank": 14,
+      "asin": "B09Y5J3WKQ",
+      "title": "CRZ YOGA Butterluxe Leggings Pockets 25''",
+      "price": "$32.00",
+      "rating": "4.6",
+      "review_count": 6167,
+      "bsr": 645,
+      "bsr_category": "#8 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 15,
+      "asin": "B0DBHX3KCJ",
+      "title": "COPYLEAF Wide Leg Pants Woman High Waist Casual Lounge Yoga Pants 2 Pockets",
+      "price": "$18.99",
+      "rating": "4.4",
+      "review_count": 5185,
+      "bsr": 723,
+      "bsr_category": "#7 in Women's Yoga Pants, #7 in Women's Athletic Pants"
+    },
+    {
+      "rank": 16,
+      "asin": "B0B7H59718",
+      "title": "CRZ YOGA Butterluxe Leggings 28\"",
+      "price": "$32.00",
+      "rating": "4.6",
+      "review_count": 5794,
+      "bsr": 969,
+      "bsr_category": "#12 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 17,
+      "asin": "B079BH4JVG",
+      "title": "IUGA Tummy Control Leggings with Pockets for Women Workout Yoga Pants",
+      "price": "$24.99",
+      "rating": "4.6",
+      "review_count": 34841,
+      "bsr": 1693,
+      "bsr_category": "#25 in Women's Activewear Leggings, #28 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 18,
+      "asin": "B09WTMS1G8",
+      "title": "Sundwudu Flare Yoga Pants for Women-High Waist Flare Leggings Workout",
+      "price": "$8.98",
+      "rating": "4.3",
+      "review_count": 3497,
+      "bsr": 1718,
+      "bsr_category": "#11 in Women's Yoga Pants"
+    },
+    {
+      "rank": 19,
+      "asin": "B0D86TWF92",
+      "title": "CRZ YOGA Butterluxe Flare Leggings 29\"/30.5\"/32\"/33.5\"",
+      "price": "$38.00",
+      "rating": "4.6",
+      "review_count": 590,
+      "bsr": 1913,
+      "bsr_category": "#13 in Women's Yoga Pants"
+    },
+    {
+      "rank": 20,
+      "asin": "B0H98MK7XL",
+      "title": "CHRLEISURE Leggings with Pockets for Women 4 Packs, Tummy Control High Waisted Yoga Workout Pants",
+      "price": "$19.99",
+      "rating": "4.3",
+      "review_count": 107,
+      "bsr": 1943,
+      "bsr_category": "#13 in Women's Activewear Leggings"
+    },
+    {
+      "rank": 21,
+      "asin": "B07XSL9HWL",
+      "title": "CAMPSNAIL 4 Pack Leggings for Women - High Waisted Tummy Control Yoga Pants for Workout Gym Black Leggings Plus Size Dance",
+      "price": "$21.99",
+      "rating": "4.4",
+      "review_count": 30833,
+      "bsr": 2010,
+      "bsr_category": "#14 in Women's Activewear Leggings"
+    },
+    {
+      "rank": 22,
+      "asin": "B0D9H9TV55",
+      "title": "COPYLEAF Womens Yoga Pants with Pockets Seamless High Waist Flare Leggings",
+      "price": "$14.95",
+      "rating": "4.5",
+      "review_count": 3982,
+      "bsr": 2090,
+      "bsr_category": "#15 in Women's Yoga Pants"
+    },
+    {
+      "rank": 23,
+      "asin": "B0D49D3H1N",
+      "title": "CRZ YOGA Butterlift Wide Leg Pants Pockets 29\"/31\"/33\"",
+      "price": "$40.00",
+      "rating": "4.4",
+      "review_count": 1097,
+      "bsr": 2207,
+      "bsr_category": "#17 in Women's Yoga Pants"
+    },
+    {
+      "rank": 24,
+      "asin": "B0DRCT6YKT",
+      "title": "Yoga Pants for Women Flare Leggings with Pockets Crossover Yoga Leggings",
+      "price": "$9.99",
+      "rating": "4.5",
+      "review_count": 2853,
+      "bsr": 2228,
+      "bsr_category": "#15 in Women's Activewear Leggings"
+    },
+    {
+      "rank": 25,
+      "asin": "B0D76R4PCH",
+      "title": "TNNZEET 3 Pack Women's Wide Leg Pants with Pockets - Casual Loose Yoga Trouser Pants Sweatpants Palazzo Lounge Pajama Pants",
+      "price": "$25.26",
+      "rating": "4.3",
+      "review_count": 5578,
+      "bsr": 2477,
+      "bsr_category": "#19 in Women's Yoga Pants"
+    },
+    {
+      "rank": 26,
+      "asin": "B0FSCWK552",
+      "title": "Walifrey Wide Leg Yoga Pants for Women with Pockets",
+      "price": "$9.99",
+      "rating": "4.3",
+      "review_count": 803,
+      "bsr": 2602,
+      "bsr_category": "#21 in Women's Yoga Pants"
+    },
+    {
+      "rank": 27,
+      "asin": "B0BD85YCTQ",
+      "title": "Women's Flare Leggings with Pockets Crossover High Waisted Yoga Pants",
+      "price": "$14.99",
+      "rating": "4.5",
+      "review_count": 6347,
+      "bsr": 2834,
+      "bsr_category": "#22 in Women's Yoga Leggings"
+    },
+    {
+      "rank": 28,
+      "asin": "B0F99GLQMN",
+      "title": "FireSwan Yoga Pants Women High Waist Wide Leg Pants with Pockets",
+      "price": "$19.99",
+      "rating": "4.4",
+      "review_count": 1363,
+      "bsr": 3533,
+      "bsr_category": "#25 in Women's Yoga Pants"
+    },
+    {
+      "rank": 29,
+      "asin": "B07N1LWCF5",
+      "title": "Yoga Pants Women High Waist Workout Bootcut Flare Leggings with Pockets",
+      "price": "$29.99",
+      "rating": "4.6",
+      "review_count": 31144,
+      "bsr": 4850,
+      "bsr_category": "#29 in Women's Yoga Pants"
+    },
+    {
+      "rank": 30,
+      "asin": "B0BS5DB6PN",
+      "title": "Jockey Women's Premium Pocket Slim Flare Yoga Pants",
+      "price": "$28.00",
+      "rating": "4.5",
+      "review_count": 1205,
+      "bsr": 19479,
+      "bsr_category": "#114 in Women's Yoga Pants"
+    }
+  ]
+}

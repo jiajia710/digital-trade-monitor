@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/politics-x-adidas-adizero-goukana-roadkill-orbit-grey-acid-red",
+    "store": "sneakerpolitics.com",
+    "title": "Politics x Adidas Adizero Goukana 'Roadkill' - Orbit Grey/Acid Red",
+    "brand": "Adidas",
+    "category": "Sneakers",
+    "condition": "new",
+    "price": 59.99,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "KJ5480|10",
+    "gtin": "198330520036",
+    "mpn": "KJ5480|10",
+    "image": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-ADIDASXPOLITICS-ADIZERO-KJ5480-WB-1.jpg?v=1771892582&width=1200",
+    "image_count": 6,
+    "rating": null,
+    "variant_count": 20,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:39.455565Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/politics-x-adidas-adizero-goukana-roadkill-orbit-grey-acid-red",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 59.99,
+    "lowest_price": 59.99,
+    "highest_price": 59.99,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:39Z",
+        "price": 59.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

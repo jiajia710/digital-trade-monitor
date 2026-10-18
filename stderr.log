@@ -1,0 +1,76 @@
+Traceback (most recent call last):
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return self.receive_nowait()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\streams\memory.py", line 113, in receive_nowait
+    raise WouldBlock
+anyio._core._exceptions.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\_backends\_asyncio.py", line 2531, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\server\mcpserver\server.py", line 1068, in run_stdio_async
+    await self._lowlevel_server.run(
+    ...<3 lines>...
+    )
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\server\lowlevel\server.py", line 712, in run
+    await serve_dual_era_loop(
+    ...<6 lines>...
+    )
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\server\runner.py", line 627, in serve_dual_era_loop
+    async with _replay_from_opening_request(read_stream) as (opening, replayed):
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\server\runner.py", line 695, in _replay_from_opening_request
+    async for item in read_stream:
+    ...<7 lines>...
+            break
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\shared\_context_streams.py", line 89, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\shared\_context_streams.py", line 71, in receive
+    ctx, item = await self._inner.receive()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    await receive_event.wait()
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\_backends\_asyncio.py", line 1936, in wait
+    await self._event.wait()
+  File "C:\Python314\Lib\asyncio\locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Scripts\cartscout-mcp.exe\__main__.py", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\cartscout_mcp\server.py", line 144, in main
+    server.run("stdio")
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\mcp\server\mcpserver\server.py", line 417, in run
+    anyio.run(self.run_stdio_async)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\_core\_eventloop.py", line 83, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lijiayi\AppData\Local\uv\cache\archive-v0\qMdSaIicq2TZbKUg\Lib\site-packages\anyio\_backends\_asyncio.py", line 2548, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "larroude.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://larroude.com/products/black-devon-ballet-flat-suede-mesh-and-leather",
+    "store": "larroude.com",
+    "title": "Devon Sneakerina Black Mesh",
+    "brand": "Larroudé",
+    "category": null,
+    "condition": null,
+    "price": 98,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "L415-DEVO-5.0-BLAC-2654",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://larroude.com/cdn/shop/files/L415-DEVO-BLAC-2654_1.webp?v=1769707098&width=1200",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 12,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:33.740974Z"
+  },
+  "get_price_history": {
+    "url": "https://larroude.com/products/black-devon-ballet-flat-suede-mesh-and-leather",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 98,
+    "lowest_price": 98,
+    "highest_price": 98,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:33Z",
+        "price": 98,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

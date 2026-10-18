@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/nike-air-force-1-le-gs-white-white-1",
+    "store": "sneakerpolitics.com",
+    "title": "Nike Air Force 1 LE (GS) - White/White",
+    "brand": "Nike",
+    "category": "Sneakers",
+    "condition": "new",
+    "price": 90,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "DH2920-111|6.5Y",
+    "gtin": "194954229683",
+    "mpn": "DH2920-111|6.5Y",
+    "image": "https://sneakerpolitics.com/cdn/shop/products/DH2920-111-PHSLH000-2000_d2536361-f753-4f7b-b71a-d23bbd8fc19a.jpg?v=1672166022&width=1200",
+    "image_count": 4,
+    "rating": null,
+    "variant_count": 8,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:36.549070Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/nike-air-force-1-le-gs-white-white-1",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 90,
+    "lowest_price": 90,
+    "highest_price": 90,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:36Z",
+        "price": 90,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

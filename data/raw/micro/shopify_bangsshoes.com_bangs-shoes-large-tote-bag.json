@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "bangsshoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.bangsshoes.com/products/bangs-shoes-large-tote-bag",
+    "store": "bangsshoes.com",
+    "title": "BANGS Shoes Large Tote Bag",
+    "brand": "BANGS Shoes",
+    "category": null,
+    "condition": null,
+    "price": 30,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": "BANGS Shoes",
+    "sku": "445 401 05 000 000",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.bangsshoes.com/cdn/shop/products/WebsiteLifetsyleProductShots_3_845x.png?v=1688626906",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:51.083117Z"
+  },
+  "get_price_history": {
+    "url": "https://bangsshoes.com/products/bangs-shoes-large-tote-bag",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 30,
+    "lowest_price": 30,
+    "highest_price": 30,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:51Z",
+        "price": 30,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

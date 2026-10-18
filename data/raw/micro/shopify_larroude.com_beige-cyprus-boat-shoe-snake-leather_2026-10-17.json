@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "larroude.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://larroude.com/products/beige-cyprus-boat-shoe-snake-leather",
+    "store": "larroude.com",
+    "title": "Cyprus Boat Shoe Beige Snake Leather",
+    "brand": "Larroudé",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 277.0,
+    "original_price": 395.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "L545-CYPR-5.0-NEUT-3286",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 15,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://larroude.com/products/beige-cyprus-boat-shoe-snake-leather",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 277.0,
+    "lowest_price": 277.0,
+    "highest_price": 277.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 277.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,16 @@
+# 敏感信息
+.env
+.claude.json
+.claude/settings.local.json
+
+# 爬虫原始数据（体积太大，不传）
+data/raw/
+data/archive/
+
+# Python 缓存与系统文件
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db

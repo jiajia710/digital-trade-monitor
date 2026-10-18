@@ -1,0 +1,612 @@
+[
+  {
+    "store": "allbirds",
+    "domain": "allbirds.com",
+    "handle": "mens-canvas-runner-nz",
+    "title": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+    "url": "https://allbirds.com/products/mens-canvas-runner-nz",
+    "price": 100.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "allbirds",
+    "domain": "allbirds.com",
+    "handle": "womens-canvas-runner-nz",
+    "title": "Women's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+    "url": "https://allbirds.com/products/womens-canvas-runner-nz",
+    "price": 100.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "allbirds",
+    "domain": "allbirds.com",
+    "handle": "mens-cruiser-terry",
+    "title": "Men's Cruiser Terry - Warm White (Warm White Sole)",
+    "url": "https://allbirds.com/products/mens-cruiser-terry",
+    "price": 115.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "allbirds",
+    "domain": "allbirds.com",
+    "handle": "mens-cruiser-slip-on-natural-black",
+    "title": "Men's Cruiser Slip On - Natural Black (Blizzard Sole)",
+    "url": "https://allbirds.com/products/mens-cruiser-slip-on-natural-black",
+    "price": 100.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "allbirds",
+    "domain": "allbirds.com",
+    "handle": "mens-cruiser-canvas-burnt-olive",
+    "title": "Men's Canvas Cruiser - Burnt Olive (Natural White Sole)",
+    "url": "https://allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+    "price": 75.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "larroude",
+    "domain": "larroude.com",
+    "handle": "ivory-stella-amore-mule-and-scarlet-leather",
+    "title": "Stella Amore Sneaker In Ivory Leather and Scarlet Suede",
+    "url": "https://larroude.com/products/ivory-stella-amore-mule-and-scarlet-leather",
+    "price": 83.0,
+    "category": "Sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "larroude",
+    "domain": "larroude.com",
+    "handle": "lampone-stella-sneaker-suede",
+    "title": "Stella Sneaker In Lampone Suede",
+    "url": "https://larroude.com/products/lampone-stella-sneaker-suede",
+    "price": 75.0,
+    "category": "Sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "larroude",
+    "domain": "larroude.com",
+    "handle": "black-devon-ballet-flat-suede-mesh-and-leather",
+    "title": "Devon Sneakerina Black Mesh",
+    "url": "https://larroude.com/products/black-devon-ballet-flat-suede-mesh-and-leather",
+    "price": 98.0,
+    "category": "Ballet",
+    "platform": "shopify"
+  },
+  {
+    "store": "saysh",
+    "domain": "saysh.com",
+    "handle": "threshold-trainer-crew-sock-black-38",
+    "title": "Threshold Trainer Crew Sock - Black",
+    "url": "https://saysh.com/products/threshold-trainer-crew-sock-black-38",
+    "price": 119.0,
+    "category": "Apparel",
+    "platform": "shopify"
+  },
+  {
+    "store": "saysh",
+    "domain": "saysh.com",
+    "handle": "threshold-trainer-crew-sock-bone-52",
+    "title": "Threshold Trainer Crew Sock - Bone",
+    "url": "https://saysh.com/products/threshold-trainer-crew-sock-bone-52",
+    "price": 119.0,
+    "category": "Apparel",
+    "platform": "shopify"
+  },
+  {
+    "store": "saysh",
+    "domain": "saysh.com",
+    "handle": "saysh-three",
+    "title": "Saysh Three",
+    "url": "https://saysh.com/products/saysh-three",
+    "price": 72.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "thousandfell",
+    "domain": "thousandfell.com",
+    "handle": "mens-slip-on-sneaker-white-pink",
+    "title": "Men's Slip On | White-Pink",
+    "url": "https://thousandfell.com/products/mens-slip-on-sneaker-white-pink",
+    "price": 87.0,
+    "category": "Slip On",
+    "platform": "shopify"
+  },
+  {
+    "store": "thousandfell",
+    "domain": "thousandfell.com",
+    "handle": "womens-slip-on-sneaker-white-pink",
+    "title": "Women's Slip On | White-Pink",
+    "url": "https://thousandfell.com/products/womens-slip-on-sneaker-white-pink",
+    "price": 87.0,
+    "category": "Slip On",
+    "platform": "shopify"
+  },
+  {
+    "store": "thousandfell",
+    "domain": "thousandfell.com",
+    "handle": "womens-slip-on-sneaker-white",
+    "title": "Women's Slip On | White",
+    "url": "https://thousandfell.com/products/womens-slip-on-sneaker-white",
+    "price": 109.0,
+    "category": "Slip On",
+    "platform": "shopify"
+  },
+  {
+    "store": "thousandfell",
+    "domain": "thousandfell.com",
+    "handle": "mens-slip-on-sneaker-white",
+    "title": "Men's Slip On | White",
+    "url": "https://thousandfell.com/products/mens-slip-on-sneaker-white",
+    "price": 109.0,
+    "category": "Slip On",
+    "platform": "shopify"
+  },
+  {
+    "store": "sansmatin",
+    "domain": "sansmatin.co.uk",
+    "handle": "mens-hera-low-top-trainers-scarlet-red-leather-suede",
+    "title": "Hera Low Top Trainers - Scarlet Red Leather & Suede",
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-scarlet-red-leather-suede",
+    "price": 110.0,
+    "category": "Trainers > Sneakers > Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "sansmatin",
+    "domain": "sansmatin.co.uk",
+    "handle": "womens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "title": "Hera Low Top Trainers - White Leather, Taupe Suede & Lime Green Pebbled Leather",
+    "url": "https://sansmatin.co.uk/products/womens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "price": 110.0,
+    "category": "Trainers > Sneakers > Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "sansmatin",
+    "domain": "sansmatin.co.uk",
+    "handle": "mens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "title": "Hera Low Top Trainers - White Leather, Taupe Suede & Lime Green Pebbled Leather",
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "price": 110.0,
+    "category": "Trainers > Sneakers > Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "sansmatin",
+    "domain": "sansmatin.co.uk",
+    "handle": "womens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "title": "Hera Low Top Trainers - Taupe Leather, Olive Green Suede & Stone Leather",
+    "url": "https://sansmatin.co.uk/products/womens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "price": 110.0,
+    "category": "Trainers > Sneakers > Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "sansmatin",
+    "domain": "sansmatin.co.uk",
+    "handle": "mens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "title": "Hera Low Top Trainers - Taupe Leather, Olive Green Suede & Stone Leather",
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "price": 110.0,
+    "category": "Trainers > Sneakers > Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "olukai",
+    "domain": "olukai.com",
+    "handle": "pukui-mens-slip-on-shoes-black-sahara",
+    "title": "Pūkuʻi  -  Black / Sahara",
+    "url": "https://olukai.com/products/pukui-mens-slip-on-shoes-black-sahara",
+    "price": 120.0,
+    "category": "Men’s Slippers",
+    "platform": "shopify"
+  },
+  {
+    "store": "olukai",
+    "domain": "olukai.com",
+    "handle": "pehuea-li-womens-sneakers-black-tan",
+    "title": "Pehuea Lī  -  Black / Tan",
+    "url": "https://olukai.com/products/pehuea-li-womens-sneakers-black-tan",
+    "price": 100.0,
+    "category": "Women’s Lightweight Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "olukai",
+    "domain": "olukai.com",
+    "handle": "laeahi-nui-mens-sneakers-slip-on-shoes-rock-tan",
+    "title": "Lae‘ahi Nui  -  Rock / Tan",
+    "url": "https://olukai.com/products/laeahi-nui-mens-sneakers-slip-on-shoes-rock-tan",
+    "price": 120.0,
+    "category": "Men’s Sneakers Slip-On Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "olukai",
+    "domain": "olukai.com",
+    "handle": "laeahi-mens-sneakers-slip-on-lava-rock",
+    "title": "Laeʻahi  -  Lava Rock",
+    "url": "https://olukai.com/products/laeahi-mens-sneakers-slip-on-lava-rock",
+    "price": 120.0,
+    "category": "Men’s Sneakers Slip-On Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "olukai",
+    "domain": "olukai.com",
+    "handle": "nohea-moku-mens-shoes-canteen",
+    "title": "Nohea Moku  -  Canteen / Canteen",
+    "url": "https://olukai.com/products/nohea-moku-mens-shoes-canteen",
+    "price": 120.0,
+    "category": "Men’s Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "hobibear",
+    "domain": "hobibear.com",
+    "handle": "juniper",
+    "title": "Juniper -  Winter Barefoot Shoes",
+    "url": "https://hobibear.com/products/juniper",
+    "price": 54.99,
+    "category": "sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "hobibear",
+    "domain": "hobibear.com",
+    "handle": "alder",
+    "title": "Alder - Wide Toe Sneakers",
+    "url": "https://hobibear.com/products/alder",
+    "price": 53.99,
+    "category": "sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "hobibear",
+    "domain": "hobibear.com",
+    "handle": "yucca",
+    "title": "Yucca - Wide Toe Shoes",
+    "url": "https://hobibear.com/products/yucca",
+    "price": 46.99,
+    "category": "sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "hobibear",
+    "domain": "hobibear.com",
+    "handle": "basalt",
+    "title": "Basalt -  Wide Toe Sneakers",
+    "url": "https://hobibear.com/products/basalt",
+    "price": 49.99,
+    "category": "sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "hobibear",
+    "domain": "hobibear.com",
+    "handle": "marigold",
+    "title": "Marigold - Wide Toe Shoes",
+    "url": "https://hobibear.com/products/marigold",
+    "price": 46.99,
+    "category": "sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "beckettsimonon",
+    "domain": "beckettsimonon.com",
+    "handle": "saphir-natural-horsehair-brush",
+    "title": "Saphir Natural Horsehair Brush -  Add On",
+    "url": "https://beckettsimonon.com/products/saphir-natural-horsehair-brush",
+    "price": 45.0,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "beckettsimonon",
+    "domain": "beckettsimonon.com",
+    "handle": "cedar-shoe-trees",
+    "title": "Cedar Shoe Trees",
+    "url": "https://beckettsimonon.com/products/cedar-shoe-trees",
+    "price": 39.0,
+    "category": "Shoe Tree",
+    "platform": "shopify"
+  },
+  {
+    "store": "olivercabell",
+    "domain": "olivercabell.com",
+    "handle": "essential-kit-1",
+    "title": "Essential Kit",
+    "url": "https://olivercabell.com/products/essential-kit-1",
+    "price": 34.99,
+    "category": "Shoecare & Accessories",
+    "platform": "shopify"
+  },
+  {
+    "store": "olivercabell",
+    "domain": "olivercabell.com",
+    "handle": "premium-kit-1",
+    "title": "Premium Kit",
+    "url": "https://olivercabell.com/products/premium-kit-1",
+    "price": 44.99,
+    "category": "Shoecare & Accessories",
+    "platform": "shopify"
+  },
+  {
+    "store": "olivercabell",
+    "domain": "olivercabell.com",
+    "handle": "distressed-kit-1",
+    "title": "Distressed Kit",
+    "url": "https://olivercabell.com/products/distressed-kit-1",
+    "price": 54.99,
+    "category": "Shoecare & Accessories",
+    "platform": "shopify"
+  },
+  {
+    "store": "koio",
+    "domain": "koio.co",
+    "handle": "care-bundle-for-leather",
+    "title": "Care Bundle For Leather I KOIO",
+    "url": "https://koio.co/products/care-bundle-for-leather",
+    "price": 66.5,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "koio",
+    "domain": "koio.co",
+    "handle": "care-bundle-for-suede-nubuck",
+    "title": "Care Bundle For Suede Nubuck I KOIO",
+    "url": "https://koio.co/products/care-bundle-for-suede-nubuck",
+    "price": 59.5,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "koio",
+    "domain": "koio.co",
+    "handle": "koio-shoe-tree",
+    "title": "Koio Shoe Tree",
+    "url": "https://koio.co/products/koio-shoe-tree",
+    "price": 30.0,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "rothys",
+    "domain": "rothys.com",
+    "handle": "kids-mary-jane-shoes-revelvet-metallic-twinkleberry",
+    "title": "The Kids Mary Jane - ReVelvet™ Metallic Twinkleberry",
+    "url": "https://rothys.com/products/kids-mary-jane-shoes-revelvet-metallic-twinkleberry",
+    "price": 55.0,
+    "category": "The Kids Mary Jane",
+    "platform": "shopify"
+  },
+  {
+    "store": "rothys",
+    "domain": "rothys.com",
+    "handle": "kids-mary-jane-shoes-revelvet-metallic-stardust",
+    "title": "The Kids Mary Jane - ReVelvet™ Metallic Stardust",
+    "url": "https://rothys.com/products/kids-mary-jane-shoes-revelvet-metallic-stardust",
+    "price": 55.0,
+    "category": "The Kids Mary Jane",
+    "platform": "shopify"
+  },
+  {
+    "store": "rothys",
+    "domain": "rothys.com",
+    "handle": "kids-mary-jane-shoes-everglade-twig",
+    "title": "The Kids Mary Jane - Everglade Twig",
+    "url": "https://rothys.com/products/kids-mary-jane-shoes-everglade-twig",
+    "price": 55.0,
+    "category": "The Kids Mary Jane",
+    "platform": "shopify"
+  },
+  {
+    "store": "rothys",
+    "domain": "rothys.com",
+    "handle": "kids-mary-jane-shoes-tawny-twig",
+    "title": "The Kids Mary Jane - Tawny Twig",
+    "url": "https://rothys.com/products/kids-mary-jane-shoes-tawny-twig",
+    "price": 55.0,
+    "category": "The Kids Mary Jane",
+    "platform": "shopify"
+  },
+  {
+    "store": "rothys",
+    "domain": "rothys.com",
+    "handle": "kids-stretch-sneaker-bubble-pop",
+    "title": "The Kids Stretch Sneaker - Bubble Pop",
+    "url": "https://rothys.com/products/kids-stretch-sneaker-bubble-pop",
+    "price": 65.0,
+    "category": "The Kids Stretch Sneaker",
+    "platform": "shopify"
+  },
+  {
+    "store": "ngo-shoes",
+    "domain": "ngo-shoes.com",
+    "handle": "coffret-en-bois-pour-sneakers",
+    "title": "Coffret d'entretien sneakers",
+    "url": "https://ngo-shoes.com/products/coffret-en-bois-pour-sneakers",
+    "price": 30.0,
+    "category": "Accessoires éco-responsables",
+    "platform": "shopify"
+  },
+  {
+    "store": "ngo-shoes",
+    "domain": "ngo-shoes.com",
+    "handle": "coffret-pour-les-sneakers",
+    "title": "Coffret en fer d'entretien sneakers",
+    "url": "https://ngo-shoes.com/products/coffret-pour-les-sneakers",
+    "price": 35.0,
+    "category": "Accessoires éco-responsables",
+    "platform": "shopify"
+  },
+  {
+    "store": "kith",
+    "domain": "kith.com",
+    "handle": "nbu204l7a8",
+    "title": "New Balance 204L - Light Silver Metallic",
+    "url": "https://kith.com/products/nbu204l7a8",
+    "price": 109.99,
+    "category": "Low Top Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "sneakerpolitics",
+    "domain": "sneakerpolitics.com",
+    "handle": "converse-shai-001-lace-up-cheetah-last-straw-lime-latte",
+    "title": "Converse Shai 001 Lace Up 'Cheetah' - Last Straw/Lime Latte",
+    "url": "https://sneakerpolitics.com/products/converse-shai-001-lace-up-cheetah-last-straw-lime-latte",
+    "price": 84.0,
+    "category": "Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "sneakerpolitics",
+    "domain": "sneakerpolitics.com",
+    "handle": "nike-air-force-1-le-gs-white-white-1",
+    "title": "Nike Air Force 1 LE (GS) - White/White",
+    "url": "https://sneakerpolitics.com/products/nike-air-force-1-le-gs-white-white-1",
+    "price": 90.0,
+    "category": "Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "sneakerpolitics",
+    "domain": "sneakerpolitics.com",
+    "handle": "politics-x-adidas-adizero-goukana-roadkill-orbit-grey-acid-red",
+    "title": "Politics x Adidas Adizero Goukana 'Roadkill' - Orbit Grey/Acid Red",
+    "url": "https://sneakerpolitics.com/products/politics-x-adidas-adizero-goukana-roadkill-orbit-grey-acid-red",
+    "price": 59.99,
+    "category": "Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "sneakerpolitics",
+    "domain": "sneakerpolitics.com",
+    "handle": "adidas-la-trainer-og-off-white-dark-marine",
+    "title": "Adidas LA Trainer OG - Off White/Dark Marine",
+    "url": "https://sneakerpolitics.com/products/adidas-la-trainer-og-off-white-dark-marine",
+    "price": 82.5,
+    "category": "Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "sneakerpolitics",
+    "domain": "sneakerpolitics.com",
+    "handle": "asics-gel-k1011-live-oak-khaki-stormy-sea",
+    "title": "Asics Gel-K1011 'Live Oak' - Khaki/Stormy Sea",
+    "url": "https://sneakerpolitics.com/products/asics-gel-k1011-live-oak-khaki-stormy-sea",
+    "price": 93.5,
+    "category": "Sneakers",
+    "platform": "shopify"
+  },
+  {
+    "store": "bangsshoes",
+    "domain": "bangsshoes.com",
+    "handle": "bangs-shoes-large-tote-bag",
+    "title": "BANGS Shoes Large Tote Bag",
+    "url": "https://bangsshoes.com/products/bangs-shoes-large-tote-bag",
+    "price": 30.0,
+    "category": "Swag",
+    "platform": "shopify"
+  },
+  {
+    "store": "bangsshoes",
+    "domain": "bangsshoes.com",
+    "handle": "boone-high-top-sneaker",
+    "title": "Boone High Top",
+    "url": "https://bangsshoes.com/products/boone-high-top-sneaker",
+    "price": 85.0,
+    "category": "High Top",
+    "platform": "shopify"
+  },
+  {
+    "store": "bangsshoes",
+    "domain": "bangsshoes.com",
+    "handle": "london-fog-floral-low-top-sneaker",
+    "title": "London Fog Floral Low Top",
+    "url": "https://bangsshoes.com/products/london-fog-floral-low-top-sneaker",
+    "price": 79.0,
+    "category": "Low Top",
+    "platform": "shopify"
+  },
+  {
+    "store": "bangsshoes",
+    "domain": "bangsshoes.com",
+    "handle": "sage-floral-high-top-sneaker",
+    "title": "Sage Floral High Top",
+    "url": "https://bangsshoes.com/products/sage-floral-high-top-sneaker",
+    "price": 72.0,
+    "category": "High Top",
+    "platform": "shopify"
+  },
+  {
+    "store": "bangsshoes",
+    "domain": "bangsshoes.com",
+    "handle": "sunrise-mountain-high-top-sneaker",
+    "title": "Sunrise Mountain High Top",
+    "url": "https://bangsshoes.com/products/sunrise-mountain-high-top-sneaker",
+    "price": 85.0,
+    "category": "High Top",
+    "platform": "shopify"
+  },
+  {
+    "store": "thursdayboots",
+    "domain": "thursdayboots.com",
+    "handle": "cobblers-choice-loafer-care-kit",
+    "title": "Cobbler's Choice Loafer Care Kit",
+    "url": "https://thursdayboots.com/products/cobblers-choice-loafer-care-kit",
+    "price": 40.0,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "thursdayboots",
+    "domain": "thursdayboots.com",
+    "handle": "cobblers-choice-leather-jacket-care-kit",
+    "title": "Cobbler's Choice Jacket Care Kit",
+    "url": "https://thursdayboots.com/products/cobblers-choice-leather-jacket-care-kit",
+    "price": 62.0,
+    "category": "Shoe Care",
+    "platform": "shopify"
+  },
+  {
+    "store": "thursdayboots",
+    "domain": "thursdayboots.com",
+    "handle": "_thrscnd_womens-penny-loafer-lug-sole-burgundy-leather",
+    "title": "[S] Penny | Burgundy",
+    "url": "https://thursdayboots.com/products/_thrscnd_womens-penny-loafer-lug-sole-burgundy-leather",
+    "price": 112.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "thursdayboots",
+    "domain": "thursdayboots.com",
+    "handle": "_thrscnd_womens-penny-platform-loafer-lug-sole-black",
+    "title": "[S] Penny Platform | Black",
+    "url": "https://thursdayboots.com/products/_thrscnd_womens-penny-platform-loafer-lug-sole-black",
+    "price": 115.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  },
+  {
+    "store": "thursdayboots",
+    "domain": "thursdayboots.com",
+    "handle": "_thrscnd_womens-eden-slip-on-loafer-ginger",
+    "title": "[S] Eden | Ginger",
+    "url": "https://thursdayboots.com/products/_thrscnd_womens-eden-slip-on-loafer-ginger",
+    "price": 90.0,
+    "category": "Shoes",
+    "platform": "shopify"
+  }
+]

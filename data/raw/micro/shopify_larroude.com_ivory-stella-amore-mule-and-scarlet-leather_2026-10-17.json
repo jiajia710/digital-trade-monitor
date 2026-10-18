@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "larroude.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://larroude.com/products/ivory-stella-amore-mule-and-scarlet-leather",
+    "store": "larroude.com",
+    "title": "Stella Amore Sneaker In Ivory Leather and Scarlet Suede",
+    "brand": "Larroudé",
+    "category": null,
+    "condition": "new",
+    "price": 83.0,
+    "original_price": 275.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "L415-STEL-5.0-IVOR-2541",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 14,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://larroude.com/products/ivory-stella-amore-mule-and-scarlet-leather",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 83.0,
+    "lowest_price": 83.0,
+    "highest_price": 83.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 83.0,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

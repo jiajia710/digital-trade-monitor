@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "bangsshoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.bangsshoes.com/products/london-fog-floral-low-top-sneaker",
+    "store": "bangsshoes.com",
+    "title": "London Fog Floral Low Top",
+    "brand": "BANGS Shoes",
+    "category": null,
+    "condition": null,
+    "price": 79,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": "BANGS Shoes",
+    "sku": "001 801 43 350 500",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.bangsshoes.com/cdn/shop/products/103_20230614_222738_0102_845x.png?v=1718336904",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:54.209679Z"
+  },
+  "get_price_history": {
+    "url": "https://bangsshoes.com/products/london-fog-floral-low-top-sneaker",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 79,
+    "lowest_price": 79,
+    "highest_price": 79,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:54Z",
+        "price": 79,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

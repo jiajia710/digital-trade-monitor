@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olivercabell.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://olivercabell.com/products/essential-kit-1",
+    "store": "olivercabell.com",
+    "title": "Essential Kit",
+    "brand": "Oliver Cabell",
+    "category": null,
+    "condition": "new",
+    "price": 34.99,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 1,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://olivercabell.com/products/essential-kit-1",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 34.99,
+    "lowest_price": 34.99,
+    "highest_price": 34.99,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 34.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

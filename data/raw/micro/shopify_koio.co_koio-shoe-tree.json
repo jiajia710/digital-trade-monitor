@@ -1,0 +1,55 @@
+{
+  "platform": "shopify",
+  "store": "koio.co",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.koio.co/products/koio-shoe-tree",
+    "store": "koio.co",
+    "title": "Koio Shoe Tree",
+    "brand": "KOIO",
+    "category": null,
+    "condition": null,
+    "price": 27.95,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": "KOIO",
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.koio.co/cdn/shop/products/Koio-Shoe-Trees_1_23f1af8e-0c30-4238-9e37-aacd2d0e6fe1_2000x.png?v=1762198383",
+    "image_count": 2,
+    "rating": {
+      "value": 4.6,
+      "best": null,
+      "count": 48
+    },
+    "variant_count": 4,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:47.856672Z"
+  },
+  "get_price_history": {
+    "url": "https://koio.co/products/koio-shoe-tree",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 27.95,
+    "lowest_price": 27.95,
+    "highest_price": 27.95,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:47Z",
+        "price": 27.95,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

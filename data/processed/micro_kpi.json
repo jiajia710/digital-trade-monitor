@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-10-17",
+  "platforms": [
+    "amazon",
+    "shopify"
+  ],
+  "platform_distribution": [
+    {
+      "platform": "amazon",
+      "count": 66
+    },
+    {
+      "platform": "shopify",
+      "count": 98
+    }
+  ],
+  "total_products": 164,
+  "avg_price": 87.85,
+  "avg_price_note": "全量跨品类混合均值，仅供参考；分品类见 avg_price_by_category",
+  "avg_price_by_category": [
+    {
+      "category": "running shoes",
+      "avg_price": 87.85,
+      "count": 164
+    }
+  ],
+  "anomalies_count": 5,
+  "category_distribution": [
+    {
+      "category": "running shoes",
+      "count": 164
+    }
+  ],
+  "price_trend_7d": [
+    {
+      "platform": "amazon",
+      "category": "running shoes",
+      "date": "2026-10-06",
+      "avg_price": 52.96
+    },
+    {
+      "platform": "amazon",
+      "category": "running shoes",
+      "date": "2026-10-17",
+      "avg_price": 59.66
+    },
+    {
+      "platform": "shopify",
+      "category": "running shoes",
+      "date": "2026-10-06",
+      "avg_price": 78.96
+    },
+    {
+      "platform": "shopify",
+      "category": "running shoes",
+      "date": "2026-10-17",
+      "avg_price": 117.26
+    }
+  ],
+  "like_for_like": {
+    "up": 6,
+    "down": 12,
+    "same": 42,
+    "avg_change_pct": -1.04
+  },
+  "price_band_trend": {
+    "2026-10-06": {
+      "amazon": {
+        "<50": 11,
+        "50-100": 11,
+        ">100": 2
+      },
+      "shopify": {
+        "<50": 12,
+        "50-100": 31,
+        ">100": 12
+      }
+    },
+    "2026-10-17": {
+      "amazon": {
+        "<50": 18,
+        "50-100": 29,
+        ">100": 4
+      },
+      "shopify": {
+        "<50": 18,
+        "50-100": 33,
+        ">100": 43
+      }
+    }
+  },
+  "anomalies": [
+    {
+      "asin": "ricdu02f6814nbfd7811",
+      "title": "Rick Owens DRKSHDW Elephant Low Boot - Black / Milk / Milk",
+      "date": "2026-10-17",
+      "old_price": 1130.0,
+      "new_price": 1130.0,
+      "change_pct": 1186.3,
+      "threshold": 126.51,
+      "alert": true
+    },
+    {
+      "asin": "beige-cyprus-boat-shoe-snake-leather",
+      "title": "Cyprus Boat Shoe Beige Snake Leather",
+      "date": "2026-10-17",
+      "old_price": 277.0,
+      "new_price": 277.0,
+      "change_pct": 215.3,
+      "threshold": 126.51,
+      "alert": true
+    },
+    {
+      "asin": "zebra-stella-sneaker-hair-leather",
+      "title": "Stella Sneaker Zebra Hair Leather",
+      "date": "2026-10-17",
+      "old_price": 263.0,
+      "new_price": 263.0,
+      "change_pct": 199.4,
+      "threshold": 126.51,
+      "alert": true
+    },
+    {
+      "asin": "beige-gaia-sandal-snake-leather",
+      "title": "Gaia Sandal Beige Snake Leather",
+      "date": "2026-10-17",
+      "old_price": 231.0,
+      "new_price": 231.0,
+      "change_pct": 162.9,
+      "threshold": 126.51,
+      "alert": true
+    },
+    {
+      "asin": "air-jordan-5-retro-halloween-black-picante-red-1",
+      "title": "Air Jordan 5 Retro 'Halloween' - Black/Picante Red",
+      "date": "2026-10-17",
+      "old_price": 215.0,
+      "new_price": 215.0,
+      "change_pct": 144.7,
+      "threshold": 126.51,
+      "alert": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olivercabell.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://olivercabell.com/products/distressed-kit-1",
+    "store": "olivercabell.com",
+    "title": "Distressed Kit",
+    "brand": "Oliver Cabell",
+    "category": null,
+    "condition": null,
+    "price": 54.99,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://olivercabell.com/products/files/DistressedKit_8b870e28-4f23-466f-91a7-4364c569bc34.jpg",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:39.631618Z"
+  },
+  "get_price_history": {
+    "url": "https://olivercabell.com/products/distressed-kit-1",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 54.99,
+    "lowest_price": 54.99,
+    "highest_price": 54.99,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:39Z",
+        "price": 54.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

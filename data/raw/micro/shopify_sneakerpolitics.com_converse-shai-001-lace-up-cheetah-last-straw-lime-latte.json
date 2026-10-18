@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/converse-shai-001-lace-up-cheetah-last-straw-lime-latte",
+    "store": "sneakerpolitics.com",
+    "title": "Converse Shai 001 Lace Up 'Cheetah' - Last Straw/Lime Latte",
+    "brand": "Converse",
+    "category": "Sneakers",
+    "condition": "new",
+    "price": 84,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "A24961C|9",
+    "gtin": "194436282946",
+    "mpn": "A24961C|9",
+    "image": "https://sneakerpolitics.com/cdn/shop/files/CONVERSE-SEP26-A24986C.jpg?v=1788400218&width=1200",
+    "image_count": 6,
+    "rating": null,
+    "variant_count": 11,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:55:23.876719Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/converse-shai-001-lace-up-cheetah-last-straw-lime-latte",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 84,
+    "lowest_price": 84,
+    "highest_price": 84,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:55:23Z",
+        "price": 84,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

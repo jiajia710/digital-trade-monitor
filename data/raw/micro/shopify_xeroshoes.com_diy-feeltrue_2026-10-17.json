@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "xeroshoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://xeroshoes.com/products/diy-feeltrue",
+    "store": "xeroshoes.com",
+    "title": "Genesis DIY Sandal Kit",
+    "brand": "Xero Shoes",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 19.95,
+    "original_price": 19.95,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "FTKIT",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 1,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://xeroshoes.com/products/diy-feeltrue",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 19.95,
+    "lowest_price": 19.95,
+    "highest_price": 19.95,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 19.95,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

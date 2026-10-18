@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "xeroshoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://xeroshoes.com/products/dillon-canvas-slip-on-youth-clearance",
+    "store": "xeroshoes.com",
+    "title": "Dillon Canvas Slip-On - Big Kids (Final Sale)",
+    "brand": "Xero Shoes",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 43.99,
+    "original_price": 54.99,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "CAPY-ALOY-Y12",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 30,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://xeroshoes.com/products/dillon-canvas-slip-on-youth-clearance",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 43.99,
+    "lowest_price": 43.99,
+    "highest_price": 43.99,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 43.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

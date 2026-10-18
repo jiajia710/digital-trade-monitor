@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "allbirds.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+    "store": "allbirds.com",
+    "title": "Men's Canvas Cruiser",
+    "brand": "Allbirds",
+    "category": null,
+    "condition": "new",
+    "price": 75,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "MENS_CRUISER_CANVAS",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.allbirds.com/cdn/shop/files/A12483_26Q1_Cruiser-Canvas-Burnt-Olive-Natural-White_PDP_LEFT.png?v=1768946185&width=100",
+    "image_count": 5,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:25.157353Z"
+  },
+  "get_price_history": {
+    "url": "https://allbirds.com/products/mens-cruiser-canvas-burnt-olive",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 75,
+    "lowest_price": 75,
+    "highest_price": 75,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:25Z",
+        "price": 75,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

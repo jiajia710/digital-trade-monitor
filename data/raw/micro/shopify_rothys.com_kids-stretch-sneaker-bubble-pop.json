@@ -1,0 +1,55 @@
+{
+  "platform": "shopify",
+  "store": "rothys.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://rothys.com/en-bg/products/kids-stretch-sneaker-bubble-pop",
+    "store": "rothys.com",
+    "title": "The Kids Stretch Sneaker - Bubble Pop",
+    "brand": "Rothy's",
+    "category": null,
+    "condition": "new",
+    "price": 75,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://rothys.com/cdn/shop/files/527_TheKidsStretchSneaker_BubblegumPop_PrimaryOverhead_0809_926345a7-7932-4cae-a44d-20fa0045d317.jpg?v=1788039110",
+    "image_count": 1,
+    "rating": {
+      "value": 4.7,
+      "best": null,
+      "count": 12
+    },
+    "variant_count": 9,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:55:15.592565Z"
+  },
+  "get_price_history": {
+    "url": "https://rothys.com/products/kids-stretch-sneaker-bubble-pop",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 75,
+    "lowest_price": 75,
+    "highest_price": 75,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:55:15Z",
+        "price": 75,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

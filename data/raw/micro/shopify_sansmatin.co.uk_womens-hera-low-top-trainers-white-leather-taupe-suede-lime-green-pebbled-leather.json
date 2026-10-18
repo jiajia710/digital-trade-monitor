@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sansmatin.co.uk",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sansmatin.co.uk/products/womens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "store": "sansmatin.co.uk",
+    "title": "Hera Low Top Trainers - White Leather, Taupe Suede & Lime Green Pebbled Leather",
+    "brand": "Sans Matin",
+    "category": null,
+    "condition": null,
+    "price": 110,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "GBP",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://sansmatin.co.uk/cdn/shop/files/7_9764df19-bf9b-4172-968b-25dd5c25495f_1215x.jpg?v=1779372870",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 7,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:01.639941Z"
+  },
+  "get_price_history": {
+    "url": "https://sansmatin.co.uk/products/womens-hera-low-top-trainers-white-leather-taupe-suede-lime-green-pebbled-leather",
+    "days": 14,
+    "currency": "GBP",
+    "current_price": 110,
+    "lowest_price": 110,
+    "highest_price": 110,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:01Z",
+        "price": 110,
+        "currency": "GBP",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "kith.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://kith.com/products/ug1174470-ddc",
+    "store": "kith.com",
+    "title": "UGG WMNS Tasman II Nubuck - Dusted Cocoa",
+    "brand": "Ugg",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 130.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "98300430",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 30,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://kith.com/products/ug1174470-ddc",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 130.0,
+    "lowest_price": 130.0,
+    "highest_price": 130.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 130.0,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

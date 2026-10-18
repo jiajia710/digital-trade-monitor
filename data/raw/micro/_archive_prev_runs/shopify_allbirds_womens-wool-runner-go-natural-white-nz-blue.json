@@ -1,0 +1,52 @@
+{
+  "platform": "shopify",
+  "store": "allbirds.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-01",
+  "source": "cartscout",
+  "get_product": {
+    "url": "https://www.allbirds.com/products/womens-wool-runner-go-natural-white-nz-blue",
+    "store": "allbirds.com",
+    "title": "Women's Wool Runner Go",
+    "brand": "Allbirds",
+    "category": null,
+    "condition": "new",
+    "price": 55,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "WOMENS_WOOL_RUNNER_GO",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.allbirds.com/cdn/shop/files/WR2-PAIR-WOOL-RUNNER2-NATURAL_WHITE_NZ_BLUE_NATURAL_WHITE_v2_326848ac-3278-430b-bcce-91dedaa1875d.jpg?v=1776209889&width=100",
+    "image_count": 5,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-01T12:41:15.564979Z"
+  },
+  "get_price_history": {
+    "url": "https://www.allbirds.com/products/womens-wool-runner-go-natural-white-nz-blue",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 55,
+    "lowest_price": 55,
+    "highest_price": 55,
+    "points": [
+      {
+        "observed_at": "2026-10-01T12:41:15Z",
+        "price": 55,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

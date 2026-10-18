@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "koio.co",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://www.koio.co/products/care-bundle-for-suede-nubuck",
+    "store": "koio.co",
+    "title": "Care Bundle For Suede Nubuck I KOIO",
+    "brand": "KOIO",
+    "category": null,
+    "condition": "new",
+    "price": 59.5,
+    "original_price": 85.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 4,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://www.koio.co/products/care-bundle-for-suede-nubuck",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 59.5,
+    "lowest_price": 59.5,
+    "highest_price": 59.5,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 59.5,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "beckettsimonon.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://www.beckettsimonon.com/products/saphir-natural-horsehair-brush",
+    "store": "beckettsimonon.com",
+    "title": "Saphir Natural Horsehair Brush -  Add On",
+    "brand": "Beckett Simonon",
+    "category": null,
+    "condition": "new",
+    "price": 45.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 1,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://www.beckettsimonon.com/products/saphir-natural-horsehair-brush",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 45.0,
+    "lowest_price": 45.0,
+    "highest_price": 45.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 45.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

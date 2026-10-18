@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olukai.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://olukai.com/products/pehuea-li-womens-sneakers-black-tan",
+    "store": "olukai.com",
+    "title": "Pehuea Lī - Black / Tan",
+    "brand": null,
+    "category": null,
+    "condition": null,
+    "price": 100,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "20379-4034-5",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://olukai.com/cdn/shop/files/20379_4034_001_W_PEHUEALI_BlackTan.png?v=1781802164&width=800",
+    "image_count": 3,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:51:17.447366Z"
+  },
+  "get_price_history": {
+    "url": "https://olukai.com/products/pehuea-li-womens-sneakers-black-tan",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 100,
+    "lowest_price": 100,
+    "highest_price": 100,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:51:17Z",
+        "price": 100,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

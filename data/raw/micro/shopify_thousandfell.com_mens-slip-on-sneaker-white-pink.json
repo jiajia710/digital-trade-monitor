@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "thousandfell.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.thousandfell.com/products/mens-slip-on-sneaker-white-pink",
+    "store": "thousandfell.com",
+    "title": "Men's Slip On | White-Pink",
+    "brand": "Thousand Fell",
+    "category": null,
+    "condition": null,
+    "price": 87,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": "Thousand Fell",
+    "sku": "1002M1005USM080",
+    "gtin": null,
+    "mpn": "810030770459",
+    "image": "https://www.thousandfell.com/cdn/shop/products/MensSlipOn_Whitew.Pink_1_3581x.png?v=1762547082",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 9,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:47.798248Z"
+  },
+  "get_price_history": {
+    "url": "https://thousandfell.com/products/mens-slip-on-sneaker-white-pink",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 87,
+    "lowest_price": 87,
+    "highest_price": 87,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:47Z",
+        "price": 87,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

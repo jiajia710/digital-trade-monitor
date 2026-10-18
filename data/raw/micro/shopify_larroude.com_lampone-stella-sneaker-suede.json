@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "larroude.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://larroude.com/products/lampone-stella-sneaker-suede",
+    "store": "larroude.com",
+    "title": "Stella Sneaker In Lampone Suede",
+    "brand": "Larroudé",
+    "category": null,
+    "condition": null,
+    "price": 75,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "L415-STEL-5.0-CAND-2497",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://larroude.com/cdn/shop/files/L415-STEL-CAND-2497_1_3.webp?v=1774025405&width=1200",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 14,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:31.499617Z"
+  },
+  "get_price_history": {
+    "url": "https://larroude.com/products/lampone-stella-sneaker-suede",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 75,
+    "lowest_price": 75,
+    "highest_price": 75,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:31Z",
+        "price": 75,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

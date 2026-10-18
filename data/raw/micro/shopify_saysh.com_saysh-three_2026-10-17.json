@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "saysh.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://saysh.com/products/saysh-three",
+    "store": "saysh.com",
+    "title": "Saysh Three",
+    "brand": "Saysh",
+    "category": null,
+    "condition": "new",
+    "price": 72.0,
+    "original_price": 285.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "10003 002 055",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 16,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://saysh.com/products/saysh-three",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 72.0,
+    "lowest_price": 72.0,
+    "highest_price": 72.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 72.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

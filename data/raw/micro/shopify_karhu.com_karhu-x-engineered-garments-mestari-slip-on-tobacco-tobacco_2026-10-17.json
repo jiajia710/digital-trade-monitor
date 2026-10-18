@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "karhu.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://karhu.com/products/karhu-x-engineered-garments-mestari-slip-on-tobacco-tobacco",
+    "store": "karhu.com",
+    "title": "KARHU X ENGINEERED GARMENTS MESTARI SLIP–ON - TOBACCO / TOBACCO",
+    "brand": "Karhu EU",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 112.5,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "EUR",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "SKU_EG25003_4",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 20,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://karhu.com/products/karhu-x-engineered-garments-mestari-slip-on-tobacco-tobacco",
+    "days": 14,
+    "currency": "EUR",
+    "current_price": 112.5,
+    "lowest_price": 112.5,
+    "highest_price": 112.5,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 112.5,
+        "currency": "EUR",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "olukai.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://olukai.com/products/laeahi-nui-mens-sneakers-slip-on-shoes-rock-tan",
+    "store": "olukai.com",
+    "title": "Lae‘ahi Nui - Rock / Tan",
+    "brand": null,
+    "category": null,
+    "condition": null,
+    "price": 120,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "10580-RK34-7",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://olukai.com/cdn/shop/files/10580_RK34_001_M_LAEAHINUI_RockTan.png?v=1782723280&width=800",
+    "image_count": 3,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:53:08.168648Z"
+  },
+  "get_price_history": {
+    "url": "https://olukai.com/products/laeahi-nui-mens-sneakers-slip-on-shoes-rock-tan",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 120,
+    "lowest_price": 120,
+    "highest_price": 120,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:53:08Z",
+        "price": 120,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

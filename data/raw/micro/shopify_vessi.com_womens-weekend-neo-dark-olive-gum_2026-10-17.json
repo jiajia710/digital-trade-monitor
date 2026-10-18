@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "vessi.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://vessi.com/products/womens-weekend-neo-dark-olive-gum",
+    "store": "vessi.com",
+    "title": "Women's Weekend Neo - Dark Olive/Gum",
+    "brand": "Vessi Footwear",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 160.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "F1020W-GN027-05",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://vessi.com/products/womens-weekend-neo-dark-olive-gum",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 160.0,
+    "lowest_price": 160.0,
+    "highest_price": 160.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 160.0,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

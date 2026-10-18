@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/air-jordan-5-retro-halloween-black-picante-red-1",
+    "store": "sneakerpolitics.com",
+    "title": "Air Jordan 5 Retro 'Halloween' - Black/Picante Red",
+    "brand": "Jordan Brand",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 215.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "HQ7978-001|7.5",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 12,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/air-jordan-5-retro-halloween-black-picante-red-1",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 215.0,
+    "lowest_price": 215.0,
+    "highest_price": 215.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 215.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

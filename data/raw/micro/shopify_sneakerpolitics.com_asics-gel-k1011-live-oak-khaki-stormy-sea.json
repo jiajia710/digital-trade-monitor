@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sneakerpolitics.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sneakerpolitics.com/products/asics-gel-k1011-live-oak-khaki-stormy-sea",
+    "store": "sneakerpolitics.com",
+    "title": "Asics Gel-K1011 'Live Oak' - Khaki/Stormy Sea",
+    "brand": "Asics",
+    "category": "Sneakers",
+    "condition": "new",
+    "price": 93.5,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "1203A828.300|4",
+    "gtin": "197298968461",
+    "mpn": "1203A828.300|4",
+    "image": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-ASICS-GELK1011-1203A828.300-WB-1.jpg?v=1759527268&width=1200",
+    "image_count": 6,
+    "rating": null,
+    "variant_count": 19,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:56:45.923716Z"
+  },
+  "get_price_history": {
+    "url": "https://sneakerpolitics.com/products/asics-gel-k1011-live-oak-khaki-stormy-sea",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 93.5,
+    "lowest_price": 93.5,
+    "highest_price": 93.5,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:56:45Z",
+        "price": 93.5,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

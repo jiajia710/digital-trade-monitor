@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sansmatin.co.uk",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://sansmatin.co.uk/en-eu/products/mens-hera-low-top-trainers-scarlet-red-leather-suede",
+    "store": "sansmatin.co.uk",
+    "title": "Hera Low Top Trainers - Scarlet Red Leather & Suede",
+    "brand": "Sans Matin",
+    "category": null,
+    "condition": null,
+    "price": 110.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "GBP",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": "https://sansmatin.co.uk/cdn/shop/files/Men_c0901804-4c0a-47a5-bb22-ce843d05178b_1350x.jpg?v=1779871953",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 7,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:52:58.727974Z"
+  },
+  "get_price_history": {
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-scarlet-red-leather-suede",
+    "days": 14,
+    "currency": "GBP",
+    "current_price": 110.0,
+    "lowest_price": 110.0,
+    "highest_price": 110.0,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:52:58Z",
+        "price": 110.0,
+        "currency": "GBP",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

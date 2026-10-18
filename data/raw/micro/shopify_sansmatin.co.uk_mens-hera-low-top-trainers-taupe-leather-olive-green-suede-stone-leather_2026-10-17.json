@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "sansmatin.co.uk",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "store": "sansmatin.co.uk",
+    "title": "Hera Low Top Trainers - Taupe Leather, Olive Green Suede & Stone Leather",
+    "brand": "Sans Matin",
+    "category": null,
+    "condition": "new",
+    "price": 110.0,
+    "original_price": 160.0,
+    "discount_percent": null,
+    "currency": "GBP",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": null,
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 7,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://sansmatin.co.uk/products/mens-hera-low-top-trainers-taupe-leather-olive-green-suede-stone-leather",
+    "days": 14,
+    "currency": "GBP",
+    "current_price": 110.0,
+    "lowest_price": 110.0,
+    "highest_price": 110.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 110.0,
+        "currency": "GBP",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

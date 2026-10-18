@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "allbirds.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://www.allbirds.com/products/mens-canvas-runner-nz",
+    "store": "allbirds.com",
+    "title": "Men's Canvas Runner NZ - Deep Navy Stripes (Blizzard Sole)",
+    "brand": "Allbirds",
+    "category": null,
+    "condition": "new",
+    "price": 100.0,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "out_of_stock",
+    "in_stock": false,
+    "seller": null,
+    "sku": "MENS_RUNNER_NZ_CANVAS",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://www.allbirds.com/products/mens-canvas-runner-nz",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 100.0,
+    "lowest_price": 100.0,
+    "highest_price": 100.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 100.0,
+        "currency": "USD",
+        "availability": "out_of_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "saysh.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://saysh.com/products/threshold-trainer-crew-sock-bone-52",
+    "store": "saysh.com",
+    "title": "Threshold Trainer Crew Sock - Bone",
+    "brand": "Weave",
+    "category": "Apparel",
+    "condition": null,
+    "price": 119,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "WV-52-XS",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://saysh.com/cdn/shop/files/1787940401723_3.png?v=1788020881&width=1024",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:41.715697Z"
+  },
+  "get_price_history": {
+    "url": "https://saysh.com/products/threshold-trainer-crew-sock-bone-52",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 119,
+    "lowest_price": 119,
+    "highest_price": 119,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:41Z",
+        "price": 119,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

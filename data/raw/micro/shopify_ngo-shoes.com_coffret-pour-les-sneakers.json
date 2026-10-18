@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "ngo-shoes.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://ngo-shoes.com/products/coffret-pour-les-sneakers",
+    "store": "ngo-shoes.com",
+    "title": "Coffret en fer d'entretien sneakers",
+    "brand": "vendor-unknown",
+    "category": "Accessoires éco-responsables",
+    "condition": null,
+    "price": 35,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "EUR",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "COFFRET2TRIMA",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://ngo-shoes.com/cdn/shop/files/2835.jpg?v=1783705225&width=1920",
+    "image_count": 2,
+    "rating": null,
+    "variant_count": 0,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:55:19.350443Z"
+  },
+  "get_price_history": {
+    "url": "https://ngo-shoes.com/products/coffret-pour-les-sneakers",
+    "days": 14,
+    "currency": "EUR",
+    "current_price": 35,
+    "lowest_price": 35,
+    "highest_price": 35,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:55:19Z",
+        "price": 35,
+        "currency": "EUR",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

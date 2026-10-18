@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "hobibear.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://hobibear.com/products/marigold",
+    "store": "hobibear.com",
+    "title": "Marigold - Wide Toe Shoes",
+    "brand": "HOBIBEAR®",
+    "category": null,
+    "condition": "new",
+    "price": 46.99,
+    "original_price": 69.99,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "WS6315753930037",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 55,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://hobibear.com/products/marigold",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 46.99,
+    "lowest_price": 46.99,
+    "highest_price": 46.99,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 46.99,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "larroude.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-17",
+  "get_product": {
+    "url": "https://larroude.com/products/zebra-stella-sneaker-hair-leather",
+    "store": "larroude.com",
+    "title": "Stella Sneaker Zebra Hair Leather",
+    "brand": "Larroudé",
+    "category": "running shoes",
+    "condition": "new",
+    "price": 263.0,
+    "original_price": 375.0,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "L415-STEL-5.0-BLAC-3279",
+    "gtin": null,
+    "mpn": null,
+    "image": null,
+    "image_count": null,
+    "rating": null,
+    "variant_count": 14,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-17T12:00:00Z"
+  },
+  "get_price_history": {
+    "url": "https://larroude.com/products/zebra-stella-sneaker-hair-leather",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 263.0,
+    "lowest_price": 263.0,
+    "highest_price": 263.0,
+    "points": [
+      {
+        "observed_at": "2026-10-17T12:00:00Z",
+        "price": 263.0,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

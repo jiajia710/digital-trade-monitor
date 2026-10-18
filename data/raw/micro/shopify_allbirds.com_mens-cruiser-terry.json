@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "allbirds.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.allbirds.com/products/mens-cruiser-terry",
+    "store": "allbirds.com",
+    "title": "Men's Cruiser Terry",
+    "brand": "Allbirds",
+    "category": null,
+    "condition": "new",
+    "price": 115,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "MENS_CRUISER_TERRY",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.allbirds.com/cdn/shop/files/A12370_26Q1_Cruiser-Terry-Warm-White-Warm-White_PDP_LEFT_f79ee143-f5b7-419a-8cfe-68557b63b868.png?v=1774566144&width=100",
+    "image_count": 5,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:17.648122Z"
+  },
+  "get_price_history": {
+    "url": "https://allbirds.com/products/mens-cruiser-terry",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 115,
+    "lowest_price": 115,
+    "highest_price": 115,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:17Z",
+        "price": 115,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}

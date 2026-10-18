@@ -1,0 +1,51 @@
+{
+  "platform": "shopify",
+  "store": "allbirds.com",
+  "category": "running shoes",
+  "collected_at": "2026-10-06",
+  "get_product": {
+    "url": "https://www.allbirds.com/products/womens-canvas-runner-nz",
+    "store": "allbirds.com",
+    "title": "Women's Canvas Runner NZ",
+    "brand": "Allbirds",
+    "category": null,
+    "condition": "new",
+    "price": 100,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "USD",
+    "availability": "in_stock",
+    "in_stock": true,
+    "seller": null,
+    "sku": "WOMENS_RUNNER_NZ_CANVAS",
+    "gtin": null,
+    "mpn": null,
+    "image": "https://www.allbirds.com/cdn/shop/files/A12500_26Q1_Runner-NZ-Canvas-Stripes-Deep-Navy-Blizzard-Sole_PDP_LEFT_bda73f01-c2a8-43d5-b680-0a4e86b8926f.png?v=1774550676&width=100",
+    "image_count": 5,
+    "rating": null,
+    "variant_count": 13,
+    "variants": null,
+    "review_count_on_page": 0,
+    "reviews": null,
+    "description": null,
+    "cached": false,
+    "extracted_at": "2026-10-06T08:50:15.810255Z"
+  },
+  "get_price_history": {
+    "url": "https://allbirds.com/products/womens-canvas-runner-nz",
+    "days": 14,
+    "currency": "USD",
+    "current_price": 100,
+    "lowest_price": 100,
+    "highest_price": 100,
+    "points": [
+      {
+        "observed_at": "2026-10-06T08:50:15Z",
+        "price": 100,
+        "currency": "USD",
+        "availability": "in_stock"
+      }
+    ],
+    "points_omitted": 0
+  }
+}
