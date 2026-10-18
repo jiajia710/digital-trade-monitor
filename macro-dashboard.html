@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>数字贸易宏观数据大屏</title>
+  <style>
+    /* ============ 浅色数据看板基础样式 (Light Theme) ============ */
+    :root {
+      --bg-0:      #f5f7fa;
+      --bg-1:      #ffffff;
+      --bg-2:      #f0f3f8;
+      --border:    #e6eaf0;
+      --axis:      #e0e0e0;
+      --text-0:    #1F2937;        /* 主文字：深灰蓝（柔和） */
+      --text-1:    #64748B;        /* 次文字：灰蓝 */
+      --text-2:    #94A3B8;        /* 元数据小字：浅灰 */
+      --primary:   #3B82F6;        /* 主色：浅蓝 */
+      --secondary: #0EA5A4;        /* 辅色：青绿 */
+      --accent:    #F59E0B;        /* 强调：琥珀 */
+      --danger:    #E57373;        /* 柔和红（替代 #E84C4C） */
+      --danger-bg: #FFF7F7;        /* 极浅红（替代 #fdecec） */
+      --ok:        #0EA5A4;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0; min-height: 100%;
+      background: var(--bg-0);
+      color: var(--text-0);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      font-size: 14px;
+    }
+    .page {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 24px 28px 32px;
+    }
+
+    /* ==== 顶部 banner ==== */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;     /* 标题水平居中 */
+      padding: 16px 18px;
+      /* 深 navy 实底（blue-800），比上一版 blue-700 再暗一档 */
+      background: #1e40af;
+      border: 1px solid #1e3a8a;
+      border-radius: 10px;
+      /* 阴影同步加深，更沉稳 */
+      box-shadow: 0 4px 14px rgba(30, 64, 175, 0.32);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      /* 白字：#ffffff 在 #1e40af 上对比度约 9.7:1，WCAG AAA */
+      color: #ffffff;
+      text-align: center;
+      /* 轻微字阴影，增强通透感 */
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    }
+    /* 徽章已移除，保留选择器以防旧 CSS 残留误用，display:none 兜底 */
+    .header h1 .badge { display: none; }
+    .status {
+      font-size: 12px;
+      color: var(--text-1);
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-2);
+      white-space: nowrap;
+      max-width: 60vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .status.ok    { color: var(--ok);   border-color: rgba(19,194,194,0.45); }
+    .status.error { color: var(--danger); border-color: rgba(232,76,76,0.45); }
+    .status.loading { color: var(--accent); border-color: rgba(242,153,74,0.45); }
+    /* 状态条已从 DOM 中移除，display:none 兜底隐藏任何残留 */
+    .header .status { display: none; }
+
+    /* ==== 顶部指标卡（3 个 KPI 摘要，去重后）==== */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .kpi-card {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      min-height: 96px;
+      box-shadow: 0 2px 8px rgba(20, 40, 80, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;     /* 整体垂直居中（label/value/foot 一组在卡中）*/
+      align-items: center;         /* 三段整体水平居中 */
+      text-align: center;          /* 兜底：行内文字也居中 */
+    }
+    .kpi-card .kpi-label {
+      font-size: 12px;
+      color: var(--text-1);
+      letter-spacing: 0.4px;
+      text-align: center;
+    }
+    .kpi-card .kpi-value {
+      font-size: 24px;             /* 居中后略放大，更醒目 */
+      font-weight: 700;
+      color: var(--text-0);
+      line-height: 1.2;
+      margin-top: 6px;
+      margin-bottom: 4px;
+      text-align: center;
+      word-break: break-all;
+    }
+    .kpi-card .kpi-value.muted {
+      color: var(--text-2);
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .kpi-card .kpi-foot {
+      font-size: 11px;
+      color: var(--text-2);
+      margin-top: 2px;
+      text-align: center;
+    }
+/* ==== 主图表栅格（2 列）==== */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .card {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(20, 40, 80, 0.06);
+      padding: 14px 16px 12px;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      /* 防止 echarts 任何溢出（y 轴 title 等）越过 card 边界，
+         避免在窄屏下视觉上"串"到相邻 card */
+      overflow: hidden;
+    }
+    .card .card-title {
+      font-size: 13px;
+      color: var(--text-0);
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+    }
+    .card .card-title .dot {
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--primary);
+      flex-shrink: 0;
+    }
+    .card .card-subtitle {
+      font-size: 11px;
+      color: var(--text-2);
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+    .card .chart {
+      flex: 1 1 auto;
+      width: 100%;
+      min-height: 320px;
+    }
+    /* 让 2 列卡片自动同高：flex 容器 + 固定 min-height，避免被内容挤矮 */
+    .grid > .card { height: 400px; }
+    .card-full { grid-column: 1 / -1; }
+
+    /* ==== 空数据 / 错误提示样式（柔和浅色，绝不刺眼）==== */
+    .empty-state {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 240px;
+      padding: 16px;
+      background: #FFF7F7;                          /* 极浅红（替代 #fdecec） */
+      border: 1px dashed rgba(229, 115, 115, 0.6);  /* 与柔和红 #E57373 同色系 */
+      border-radius: 8px;
+      color: #B0413E;                               /* 深酒红（替代纯红） */
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.6;
+    }
+    .empty-state .empty-icon { font-size: 22px; margin-right: 8px; }
+    .empty-state .empty-msg  { display: inline-block; max-width: 480px; }
+
+    @media (max-width: 960px) {
+      .kpi-row { grid-template-columns: 1fr; }
+      .grid    { grid-template-columns: 1fr; }
+      .card-full { grid-column: 1; }
+      .grid > .card { height: auto; }
+      .card .chart { min-height: 280px; }
+    }
+
+    /* ==== 数据血缘 / 数据来源（页面底部固定可见区）==== */
+    .data-lineage {
+      margin-top: 24px;
+      padding: 20px 22px;
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(20, 40, 80, 0.05);
+    }
+    .data-lineage h2 {
+      margin: 0 0 4px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-0);
+    }
+    .data-lineage .lineage-intro {
+      margin: 0 0 14px 0;
+      font-size: 12px;
+      color: var(--text-1);
+      line-height: 1.5;
+    }
+    .data-lineage .source-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .data-lineage .source-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 12px;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .data-lineage .source-item .src-icon {
+      flex: 0 0 24px;
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      background: var(--primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .data-lineage .source-item .src-body { flex: 1 1 auto; }
+    .data-lineage .source-item .src-title {
+      color: var(--text-0);
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .data-lineage .source-item .src-desc {
+      color: var(--text-1);
+      font-size: 11px;
+    }
+    .data-lineage .source-item a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .data-lineage .source-item a:hover { text-decoration: underline; }
+    .data-lineage .pipeline {
+      margin-top: 14px;
+      padding: 10px 12px;
+      background: var(--bg-2);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      font-size: 11px;
+      color: var(--text-1);
+      line-height: 1.6;
+    }
+    .data-lineage .pipeline code {
+      background: #fff;
+      padding: 1px 5px;
+      border-radius: 3px;
+      border: 1px solid var(--border);
+      color: var(--text-0);
+      font-size: 11px;
+    }
+    .data-lineage .doc-link {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--text-1);
+    }
+    .data-lineage .doc-link a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    .data-lineage .doc-link a:hover { text-decoration: underline; }
+
+    .footer {
+      margin-top: 12px;
+      color: var(--text-2);
+      font-size: 12px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <h1>数字贸易宏观数据大屏</h1>
+      <!-- 状态条与徽章已移除（按需求） -->
+    </div>
+
+    <!-- ① 顶部 3 个指标卡（主数值全部动态绑定，初始为占位"-"） -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-label">跨境电商进出口总额</div>
+        <div id="kpi-cross-border" class="kpi-value muted">—</div>
+        <div class="kpi-foot">海关总署，2025年</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">数字交付服务贸易额</div>
+        <div id="kpi-dse-trade" class="kpi-value muted">—</div>
+        <div class="kpi-foot">WTO（SI+SH口径），2025年</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">ICT 服务出口占比</div>
+        <div id="kpi-ict-share" class="kpi-value muted">—</div>
+        <div class="kpi-foot">世界银行 BX.GSR.CCIS.ZS，2025年</div>
+      </div>
+    </div>
+
+    <!-- ②③④⑤ 4 块图表 -->
+    <div class="grid">
+      <!-- ② 中国跨境电商进出口趋势（折线图，单线 = 进出口总额） -->
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>中国跨境电商进出口趋势</div>
+        <div class="card-subtitle">数据来源：海关总署</div>
+        <div id="chart-cross-border" class="chart"></div>
+      </div>
+
+      <!-- ③ 中国数字交付服务贸易趋势（折线图，横轴=年份） -->
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>中国数字交付服务贸易趋势</div>
+        <div class="card-subtitle">数据来源：WTO Timeseries API（SI+SH 口径）</div>
+        <div id="chart-cn-dse" class="chart"></div>
+      </div>
+
+      <!-- ④ 数字服务贸易结构：环形图（无数据时显示提示） -->
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>数字服务贸易结构</div>
+        <div class="card-subtitle">数据来源：WTO Digitally Delivered Services Trade Dataset（8 子部门）</div>
+        <div id="chart-structure" class="chart"></div>
+      </div>
+
+      <!-- ⑤ 国际比较：横向条形图 -->
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>国际比较：ICT 服务出口占比</div>
+        <div class="card-subtitle">数据来源：世界银行 BX.GSR.CCIS.ZS</div>
+        <div id="chart-intl" class="chart"></div>
+      </div>
+    </div>
+
+    <!-- 数据处理流程板块已按需求移除 -->
+
+    <div class="footer">数据自动获取</div>
+  </div>
+
+  <script src="vendor/echarts.min.js"></script>
+  <script src="components/macro-charts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

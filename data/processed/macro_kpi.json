@@ -1,0 +1,302 @@
+{
+  "updated_at": "2026-10-16T18:50:30Z",
+  "data_source": "World Bank API (BX.GSR.CCIS.ZS, IT.NET.USER.ZS) + OECD SDMX (DSD_BATIS@DF_BATIS, China EBOPS-2010) + WTO Timeseries API (ITS_CS_AM6, China SI+SH)",
+  "china_kpi": {
+    "value": null,
+    "yoy_growth": -3.1,
+    "ict_timeseries": [
+      {
+        "year": 2017,
+        "value": 12.6
+      },
+      {
+        "year": 2018,
+        "value": 12.9
+      },
+      {
+        "year": 2019,
+        "value": 15.1
+      },
+      {
+        "year": 2020,
+        "value": 18.6
+      },
+      {
+        "year": 2021,
+        "value": 17.9
+      },
+      {
+        "year": 2022,
+        "value": 18.1
+      },
+      {
+        "year": 2023,
+        "value": 19.3
+      },
+      {
+        "year": 2024,
+        "value": 19.8
+      },
+      {
+        "year": 2025,
+        "value": 19.1
+      }
+    ],
+    "unit": "trillion_USD",
+    "note": "绝对金额字段为 null：原始 World Bank 指标 BX.GSR.CCIS.ZS 是占比(%)，无法在不引入外部基数的情况下推算中国数字服务贸易的绝对金额。本脚本不编造任何基数，也不输出 0.0 之类的保底值。"
+  },
+  "international_comparison": [
+    {
+      "country": "China",
+      "country_code": "CHN",
+      "year": 2025,
+      "ict_export_share": 19.1
+    },
+    {
+      "country": "USA",
+      "country_code": "USA",
+      "year": 2025,
+      "ict_export_share": 8.2
+    },
+    {
+      "country": "UK",
+      "country_code": "GBR",
+      "year": 2025,
+      "ict_export_share": 9.1
+    },
+    {
+      "country": "India",
+      "country_code": "IND",
+      "year": 2025,
+      "ict_export_share": 48.6
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SGP",
+      "year": 2025,
+      "ict_export_share": 8.0
+    }
+  ],
+  "scatter_data": [
+    {
+      "country": "China",
+      "country_code": "CHN",
+      "ict_year": 2025,
+      "ict_export_share": 19.1,
+      "internet_year": 2025,
+      "internet_penetration": 91.6
+    },
+    {
+      "country": "USA",
+      "country_code": "USA",
+      "ict_year": 2025,
+      "ict_export_share": 8.2,
+      "internet_year": null,
+      "internet_penetration": null
+    },
+    {
+      "country": "UK",
+      "country_code": "GBR",
+      "ict_year": 2025,
+      "ict_export_share": 9.1,
+      "internet_year": null,
+      "internet_penetration": null
+    },
+    {
+      "country": "India",
+      "country_code": "IND",
+      "ict_year": 2025,
+      "ict_export_share": 48.6,
+      "internet_year": null,
+      "internet_penetration": null
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SGP",
+      "ict_year": 2025,
+      "ict_export_share": 8.0,
+      "internet_year": null,
+      "internet_penetration": null
+    }
+  ],
+  "structure": [
+    {
+      "name": "保险和养老金服务",
+      "name_en": "Insurance and pension services",
+      "value": 2330.0,
+      "share": 0.96,
+      "category_code": "SF",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "金融服务",
+      "name_en": "Financial services",
+      "value": 3240.0,
+      "share": 1.33,
+      "category_code": "SG",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "知识产权使用费",
+      "name_en": "Charges for the use of intellectual property n.i.e.",
+      "value": 12940.0,
+      "share": 5.32,
+      "category_code": "SH",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "电信服务",
+      "name_en": "Telecommunications services",
+      "value": 5042.2199,
+      "share": 2.07,
+      "category_code": "SI1",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "计算机服务",
+      "name_en": "Computer services",
+      "value": 102673.8911,
+      "share": 42.23,
+      "category_code": "SI2",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "信息服务",
+      "name_en": "Information services",
+      "value": 0.0,
+      "share": 0.0,
+      "category_code": "SI3",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "其他商业服务",
+      "name_en": "Other business services",
+      "value": 114348.9417,
+      "share": 47.04,
+      "category_code": "SJ",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    },
+    {
+      "name": "个人、文化和娱乐服务",
+      "name_en": "Personal, cultural, and recreational services",
+      "value": 2538.0,
+      "share": 1.04,
+      "category_code": "SK",
+      "year": 2025,
+      "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)"
+    }
+  ],
+  "structure_meta": {
+    "source": "WTO Digitally Delivered Services Trade Dataset (DDS_bulk_download.csv)",
+    "source_short": "WTO Digitally Delivered Services Trade Dataset",
+    "year": 2025,
+    "unit": "百万美元（Million US dollar）",
+    "counterpart": "World",
+    "trade_flow": "X (Exports)",
+    "reporter": "CN (China)",
+    "mode": "Mode 1 (cross-border supply)",
+    "n_sub_sectors": 8,
+    "dds_total_2025": 243113.0527,
+    "sum_8_sub_sectors_2025": 243113.0527,
+    "sum_vs_dds_delta": 0.0,
+    "note": "8 子部门 = SF / SG / SH / SI1 / SI2 / SI3 / SJ / SK，即 WTO-DDS 8 子部门结构；share 为 8 子部门内部份额。"
+  },
+  "china_digital_service_trend": [
+    {
+      "year": 2019,
+      "value": 61300.0
+    },
+    {
+      "year": 2020,
+      "value": 70600.0
+    },
+    {
+      "year": 2021,
+      "value": 87000.0
+    },
+    {
+      "year": 2022,
+      "value": 82460.0
+    },
+    {
+      "year": 2023,
+      "value": 81160.0
+    },
+    {
+      "year": 2024,
+      "value": 85880.0
+    },
+    {
+      "year": 2025,
+      "value": 88020.0
+    }
+  ],
+  "honesty_note": "原始指标为占比(%)，不携带绝对金额信息；china_kpi.value 因此恒为 null。任何'0.0 万亿元'或固定保底值都属于伪造，本脚本已彻底避免。",
+  "structure_legacy_2024": [
+    {
+      "category": "其他商业服务",
+      "category_code": "SJ",
+      "value": 112709.8,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 48.4
+    },
+    {
+      "category": "电信、计算机和信息服务",
+      "category_code": "SI",
+      "value": 100282.1,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 43.1
+    },
+    {
+      "category": "知识产权使用费",
+      "category_code": "SH",
+      "value": 10282.6,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 4.4
+    },
+    {
+      "category": "金融服务",
+      "category_code": "SG",
+      "value": 4167.5,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 1.8
+    },
+    {
+      "category": "保险和养老金服务",
+      "category_code": "SF",
+      "value": 2770.3,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 1.2
+    },
+    {
+      "category": "个人、文化和娱乐服务",
+      "category_code": "SK",
+      "value": 2499.0,
+      "year": 2024,
+      "source": "OECD SDMX (DSD_BATIS@DF_BATIS, ADJUSTMENT=N)",
+      "share": 1.1
+    }
+  ],
+  "structure_meta_legacy_2024": {
+    "source": "OECD SDMX REST API (DSD_BATIS@DF_BATIS, ADJUSTMENT=N / Reported)",
+    "year": 2024,
+    "unit": "百万美元（百万美元 = 1,000,000 USD）",
+    "counterpart": "W (World — all partners combined)",
+    "trade_flow": "X (Exports / Credits)",
+    "categories_source": "OECD CL_BOP6_ITEM (EBOPS 2010)",
+    "categories_unit": "百万美元",
+    "note": "占比 (%) 是 6 类合计内部份额，不等于占总服务出口的份额。数值口径：SDMX BaTIS / China Reported（OECD 报告期=N）。"
+  }
+}
